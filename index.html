@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Backend Interview Flashcards</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="app-container">
+        <header>
+            <h1>Backend Mastery</h1>
+            <p>Master your interview questions</p>
+            
+            <div class="filter-container">
+                <label for="topic-filter">Topic:</label>
+                <select id="topic-filter" class="topic-select">
+                    <option value="all">All Topics</option>
+                    <!-- Options populated via JS -->
+                </select>
+            </div>
+
+            <div class="progress-container">
+                <div class="progress-bar" id="progress-bar"></div>
+            </div>
+            <p class="progress-text" id="progress-text">0 / 0 Completed</p>
+        </header>
+
+        <main>
+            <div class="flashcard-container">
+                <button id="prev-btn" class="nav-btn" aria-label="Previous card">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 18l-6-6 6-6"/></svg>
+                </button>
+                
+                <div class="scene">
+                    <div class="flashcard" id="flashcard">
+                        <div class="card-face card-front">
+                            <span class="topic-badge" id="topic-badge">Topic</span>
+                            <div class="card-content">
+                                <h2>Question</h2>
+                                <p id="question-text">Loading...</p>
+                            </div>
+                            <span class="flip-instruction">Click to flip</span>
+                        </div>
+                        <div class="card-face card-back">
+                            <div class="card-content">
+                                <h2>Answer</h2>
+                                <div id="answer-text">Loading...</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <button id="next-btn" class="nav-btn" aria-label="Next card">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg>
+                </button>
+            </div>
+
+            <div class="actions">
+                <button id="mark-known-btn" class="action-btn success-btn">Mark as Known</button>
+            </div>
+        </main>
+    </div>
+
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
