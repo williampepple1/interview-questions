@@ -1,14 +1,18 @@
 :root {
-    --bg-color: #0b0f19;
-    --card-bg: rgba(30, 41, 59, 0.7);
-    --card-border: rgba(255, 255, 255, 0.1);
-    --text-primary: #f8fafc;
-    --text-secondary: #94a3b8;
-    --accent-color: #3b82f6;
-    --accent-glow: rgba(59, 130, 246, 0.5);
-    --success-color: #10b981;
-    --success-glow: rgba(16, 185, 129, 0.3);
+    --bg-color: #0a0a0a;
+    --card-bg: #111111;
+    --card-bg-back: #171717;
+    --card-border: #262626;
+    --card-border-hover: #404040;
+    --text-primary: #ededed;
+    --text-secondary: #a3a3a3;
+    --accent-color: #ededed;
+    --success-bg: #ededed;
+    --success-text: #0a0a0a;
+    --success-hover: #d4d4d4;
     --font-family: 'Inter', sans-serif;
+    --nav-btn-bg: #171717;
+    --nav-btn-border: #262626;
 }
 
 * {
@@ -20,44 +24,43 @@
 body {
     font-family: var(--font-family);
     background: var(--bg-color);
-    background-image: 
-        radial-gradient(circle at 15% 50%, rgba(59, 130, 246, 0.15) 0%, transparent 50%),
-        radial-gradient(circle at 85% 30%, rgba(139, 92, 246, 0.15) 0%, transparent 50%);
     color: var(--text-primary);
     min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 .app-container {
     width: 100%;
     max-width: 800px;
-    padding: 2rem;
+    padding: 2.5rem;
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 2.5rem;
 }
 
 header {
     text-align: center;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
 }
 
 header h1 {
-    font-size: 2.5rem;
-    font-weight: 700;
-    background: linear-gradient(to right, #60a5fa, #a78bfa);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    letter-spacing: -0.03em;
     margin-bottom: 0.5rem;
 }
 
 header p {
     color: var(--text-secondary);
-    font-size: 1.1rem;
-    margin-bottom: 1rem;
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+    letter-spacing: -0.01em;
 }
 
 .filter-container {
@@ -65,43 +68,51 @@ header p {
     align-items: center;
     justify-content: center;
     gap: 0.75rem;
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
 }
 
 .filter-container label {
-    font-size: 0.9rem;
+    font-size: 0.85rem;
     color: var(--text-secondary);
     font-weight: 500;
 }
 
 .topic-select {
-    background: rgba(30, 41, 59, 0.8);
+    background: var(--card-bg);
     border: 1px solid var(--card-border);
     color: var(--text-primary);
     padding: 0.5rem 1rem;
-    border-radius: 0.5rem;
+    border-radius: 6px;
     font-family: var(--font-family);
-    font-size: 0.9rem;
+    font-size: 0.85rem;
     cursor: pointer;
     outline: none;
     transition: all 0.2s ease;
+    appearance: none;
+    padding-right: 2rem;
+    background-image: url("data:image/svg+xml,%3Csvg width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%23a3a3a3' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 0.7rem top 50%;
+}
+
+.topic-select:hover {
+    border-color: var(--card-border-hover);
 }
 
 .topic-select:focus {
-    border-color: var(--accent-color);
-    box-shadow: 0 0 0 2px var(--accent-glow);
+    border-color: var(--text-primary);
 }
 
 .topic-select option {
-    background: #0f172a;
-    color: #f8fafc;
+    background: var(--card-bg);
+    color: var(--text-primary);
 }
 
 .progress-container {
     width: 100%;
     max-width: 400px;
-    height: 6px;
-    background: rgba(255, 255, 255, 0.1);
+    height: 3px;
+    background: var(--card-border);
     border-radius: 999px;
     margin: 1.5rem auto 0.5rem;
     overflow: hidden;
@@ -109,28 +120,29 @@ header p {
 
 .progress-bar {
     height: 100%;
-    background: var(--success-color);
+    background: var(--text-primary);
     width: 0%;
-    transition: width 0.3s ease;
+    transition: width 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .progress-text {
-    font-size: 0.85rem;
+    font-size: 0.8rem;
     color: var(--text-secondary);
+    letter-spacing: 0.02em;
 }
 
 .flashcard-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 1rem;
-    perspective: 1000px;
+    gap: 1.5rem;
+    perspective: 1500px;
 }
 
 .scene {
     flex: 1;
-    perspective: 1000px;
-    height: 400px;
+    perspective: 1500px;
+    height: 420px;
     max-width: 600px;
     margin: 0 auto;
 }
@@ -139,7 +151,7 @@ header p {
     width: 100%;
     height: 100%;
     position: relative;
-    transition: transform 0.6s cubic-bezier(0.4, 0.0, 0.2, 1);
+    transition: transform 0.6s cubic-bezier(0.2, 0.8, 0.2, 1);
     transform-style: preserve-3d;
     cursor: pointer;
 }
@@ -154,45 +166,40 @@ header p {
     height: 100%;
     backface-visibility: hidden;
     -webkit-backface-visibility: hidden;
-    border-radius: 1.5rem;
-    padding: 2.5rem;
+    border-radius: 12px;
+    padding: 3rem;
     display: flex;
     flex-direction: column;
-    background: var(--card-bg);
-    backdrop-filter: blur(12px);
     border: 1px solid var(--card-border);
-    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
     overflow: hidden;
+    transition: border-color 0.3s ease;
+}
+
+.card-front {
+    background: var(--card-bg);
 }
 
 .card-back {
     transform: rotateX(180deg);
-    background: rgba(15, 23, 42, 0.8);
-    border-color: rgba(59, 130, 246, 0.3);
+    background: var(--card-bg-back);
 }
 
-/* Subtle glow behind the card */
-.card-face::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 1px;
-    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+.flashcard:hover .card-face {
+    border-color: var(--card-border-hover);
 }
 
 .topic-badge {
     align-self: flex-start;
-    padding: 0.25rem 0.75rem;
-    border-radius: 999px;
-    background: rgba(59, 130, 246, 0.2);
-    color: #93c5fd;
-    font-size: 0.75rem;
-    font-weight: 600;
+    padding: 0.25rem 0.6rem;
+    border-radius: 4px;
+    background: #1c1c1c;
+    border: 1px solid #2e2e2e;
+    color: #d4d4d4;
+    font-size: 0.7rem;
+    font-weight: 500;
     text-transform: uppercase;
     letter-spacing: 0.05em;
-    margin-bottom: 1.5rem;
+    margin-bottom: 2rem;
 }
 
 .card-content {
@@ -204,43 +211,48 @@ header p {
 }
 
 .card-content h2 {
-    font-size: 0.875rem;
+    font-size: 0.75rem;
     color: var(--text-secondary);
     text-transform: uppercase;
-    letter-spacing: 0.1em;
-    margin-bottom: 0.5rem;
+    letter-spacing: 0.08em;
+    margin-bottom: 0.75rem;
+    font-weight: 500;
 }
 
 #question-text {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     font-weight: 500;
-    line-height: 1.4;
+    line-height: 1.5;
+    color: var(--text-primary);
+    letter-spacing: -0.01em;
 }
 
 #answer-text {
-    font-size: 1.1rem;
-    line-height: 1.6;
-    color: #e2e8f0;
+    font-size: 1.05rem;
+    line-height: 1.7;
+    color: #d4d4d4;
 }
 
 /* markdown styles inside answer */
 #answer-text pre {
-    background: #0f172a;
-    padding: 1rem;
-    border-radius: 0.5rem;
+    background: #0a0a0a;
+    padding: 1.25rem;
+    border-radius: 8px;
     overflow-x: auto;
-    margin: 1rem 0;
-    font-family: monospace;
-    font-size: 0.9rem;
-    border: 1px solid rgba(255,255,255,0.1);
+    margin: 1.25rem 0;
+    font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+    font-size: 0.85rem;
+    border: 1px solid var(--card-border);
+    line-height: 1.5;
 }
 
 #answer-text code {
-    background: rgba(255,255,255,0.1);
+    background: #1f1f1f;
     padding: 0.2rem 0.4rem;
-    border-radius: 0.25rem;
-    font-family: monospace;
-    font-size: 0.9em;
+    border-radius: 4px;
+    font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+    font-size: 0.85em;
+    color: #e5e5e5;
 }
 
 #answer-text p {
@@ -254,18 +266,19 @@ header p {
 
 .flip-instruction {
     align-self: center;
-    font-size: 0.875rem;
+    font-size: 0.8rem;
     color: var(--text-secondary);
-    opacity: 0.7;
-    margin-top: 1.5rem;
+    opacity: 0.6;
+    margin-top: 2rem;
+    letter-spacing: 0.02em;
 }
 
 .nav-btn {
-    background: rgba(255, 255, 255, 0.05);
-    border: 1px solid var(--card-border);
-    color: var(--text-primary);
-    width: 3rem;
-    height: 3rem;
+    background: var(--nav-btn-bg);
+    border: 1px solid var(--nav-btn-border);
+    color: var(--text-secondary);
+    width: 2.75rem;
+    height: 2.75rem;
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -276,8 +289,9 @@ header p {
 }
 
 .nav-btn:hover {
-    background: rgba(255, 255, 255, 0.1);
-    transform: scale(1.05);
+    color: var(--text-primary);
+    border-color: var(--card-border-hover);
+    background: #1f1f1f;
 }
 
 .nav-btn:active {
@@ -287,52 +301,54 @@ header p {
 .actions {
     display: flex;
     justify-content: center;
-    margin-top: 2rem;
+    margin-top: 1rem;
 }
 
 .action-btn {
-    padding: 0.75rem 2rem;
-    border-radius: 999px;
+    padding: 0.6rem 1.5rem;
+    border-radius: 6px;
     border: none;
-    font-size: 1rem;
-    font-weight: 600;
+    font-size: 0.9rem;
+    font-weight: 500;
     cursor: pointer;
-    transition: all 0.2s;
+    transition: all 0.2s ease;
     font-family: var(--font-family);
+    letter-spacing: 0.01em;
 }
 
 .success-btn {
-    background: var(--success-color);
-    color: white;
-    box-shadow: 0 0 15px var(--success-glow);
+    background: var(--success-bg);
+    color: var(--success-text);
 }
 
 .success-btn:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 0 25px var(--success-glow);
-    background: #059669;
+    background: var(--success-hover);
 }
 
 .success-btn:active {
-    transform: translateY(0);
+    transform: scale(0.98);
 }
 
 /* Custom Scrollbar for card content */
 .card-content::-webkit-scrollbar {
-    width: 6px;
+    width: 4px;
 }
 .card-content::-webkit-scrollbar-track {
     background: transparent;
 }
 .card-content::-webkit-scrollbar-thumb {
-    background: rgba(255,255,255,0.2);
+    background: #333;
     border-radius: 10px;
 }
 .card-content::-webkit-scrollbar-thumb:hover {
-    background: rgba(255,255,255,0.3);
+    background: #444;
 }
 
 @media (max-width: 768px) {
+    .app-container {
+        padding: 1.5rem;
+    }
+    
     .flashcard-container {
         flex-direction: column;
     }
@@ -345,9 +361,7 @@ header p {
         height: 500px;
     }
     
-    /* Add bottom nav for mobile */
-    .actions {
-        flex-wrap: wrap;
-        gap: 1rem;
+    .card-face {
+        padding: 2rem;
     }
 }
