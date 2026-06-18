@@ -1,18 +1,18 @@
 :root {
-    --bg-color: #f8fafc;
-    --card-bg: #ffffff;
-    --card-bg-back: #f1f5f9;
-    --card-border: #e2e8f0;
-    --card-border-hover: #cbd5e1;
-    --text-primary: #0f172a;
-    --text-secondary: #64748b;
-    --accent-color: #3b82f6;
-    --success-bg: #0f172a;
-    --success-text: #ffffff;
-    --success-hover: #1e293b;
+    --bg-color: #dcd3ba;
+    --card-bg: #e6ddc5;
+    --card-bg-back: #d1c7ad;
+    --card-border: #b8ac8c;
+    --card-border-hover: #9c9172;
+    --text-primary: #3d3624;
+    --text-secondary: #5c533c;
+    --accent-color: #8c7a52;
+    --success-bg: #4a412c;
+    --success-text: #f5f0e1;
+    --success-hover: #332d1e;
     --font-family: 'Inter', sans-serif;
-    --nav-btn-bg: #ffffff;
-    --nav-btn-border: #e2e8f0;
+    --nav-btn-bg: #e6ddc5;
+    --nav-btn-border: #b8ac8c;
 }
 
 * {
@@ -197,9 +197,9 @@ header p {
     align-self: flex-start;
     padding: 0.25rem 0.6rem;
     border-radius: 6px;
-    background: #f1f5f9;
-    border: 1px solid #e2e8f0;
-    color: #475569;
+    background: #dcd3ba;
+    border: 1px solid #b8ac8c;
+    color: #4a412c;
     font-size: 0.75rem;
     font-weight: 600;
     text-transform: uppercase;
@@ -235,12 +235,12 @@ header p {
 #answer-text {
     font-size: 1.1rem;
     line-height: 1.6;
-    color: #334155;
+    color: #5c533c;
 }
 
 /* markdown styles inside answer */
 #answer-text pre {
-    background: #f8fafc;
+    background: #c7bc9f;
     padding: 1.25rem;
     border-radius: 8px;
     overflow-x: auto;
@@ -252,12 +252,12 @@ header p {
 }
 
 #answer-text code {
-    background: #f1f5f9;
+    background: #dcd3ba;
     padding: 0.2rem 0.4rem;
     border-radius: 4px;
     font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
     font-size: 0.85em;
-    color: #0f172a;
+    color: #3d3624;
 }
 
 #answer-text p {
