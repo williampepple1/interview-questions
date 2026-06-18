@@ -1,18 +1,18 @@
 :root {
-    --bg-color: #dcd3ba;
-    --card-bg: #e6ddc5;
-    --card-bg-back: #d1c7ad;
-    --card-border: #b8ac8c;
-    --card-border-hover: #9c9172;
+    --bg-color: #ede5cf;
+    --card-bg: #f5eedc;
+    --card-bg-back: #e3dbbf;
+    --card-border: #d1c7ad;
+    --card-border-hover: #b8ac8c;
     --text-primary: #3d3624;
     --text-secondary: #5c533c;
-    --accent-color: #8c7a52;
+    --accent-color: #a39266;
     --success-bg: #4a412c;
     --success-text: #f5f0e1;
     --success-hover: #332d1e;
     --font-family: 'Inter', sans-serif;
-    --nav-btn-bg: #e6ddc5;
-    --nav-btn-border: #b8ac8c;
+    --nav-btn-bg: #f5eedc;
+    --nav-btn-border: #d1c7ad;
 }
 
 * {
@@ -197,8 +197,8 @@ header p {
     align-self: flex-start;
     padding: 0.25rem 0.6rem;
     border-radius: 6px;
-    background: #dcd3ba;
-    border: 1px solid #b8ac8c;
+    background: #e3dbbf;
+    border: 1px solid #d1c7ad;
     color: #4a412c;
     font-size: 0.75rem;
     font-weight: 600;
@@ -240,7 +240,7 @@ header p {
 
 /* markdown styles inside answer */
 #answer-text pre {
-    background: #c7bc9f;
+    background: #dcd3ba;
     padding: 1.25rem;
     border-radius: 8px;
     overflow-x: auto;
@@ -252,7 +252,7 @@ header p {
 }
 
 #answer-text code {
-    background: #dcd3ba;
+    background: #e3dbbf;
     padding: 0.2rem 0.4rem;
     border-radius: 4px;
     font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
