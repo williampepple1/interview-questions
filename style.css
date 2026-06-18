@@ -1,18 +1,18 @@
 :root {
-    --bg-color: #0a0a0a;
-    --card-bg: #111111;
-    --card-bg-back: #171717;
-    --card-border: #262626;
-    --card-border-hover: #404040;
-    --text-primary: #ededed;
-    --text-secondary: #a3a3a3;
-    --accent-color: #ededed;
-    --success-bg: #ededed;
-    --success-text: #0a0a0a;
-    --success-hover: #d4d4d4;
+    --bg-color: #f8fafc;
+    --card-bg: #ffffff;
+    --card-bg-back: #f1f5f9;
+    --card-border: #e2e8f0;
+    --card-border-hover: #cbd5e1;
+    --text-primary: #0f172a;
+    --text-secondary: #64748b;
+    --accent-color: #3b82f6;
+    --success-bg: #0f172a;
+    --success-text: #ffffff;
+    --success-hover: #1e293b;
     --font-family: 'Inter', sans-serif;
-    --nav-btn-bg: #171717;
-    --nav-btn-border: #262626;
+    --nav-btn-bg: #ffffff;
+    --nav-btn-border: #e2e8f0;
 }
 
 * {
@@ -50,7 +50,7 @@ header {
 
 header h1 {
     font-size: 2rem;
-    font-weight: 600;
+    font-weight: 700;
     color: var(--text-primary);
     letter-spacing: -0.03em;
     margin-bottom: 0.5rem;
@@ -85,14 +85,16 @@ header p {
     border-radius: 6px;
     font-family: var(--font-family);
     font-size: 0.85rem;
+    font-weight: 500;
     cursor: pointer;
     outline: none;
     transition: all 0.2s ease;
     appearance: none;
     padding-right: 2rem;
-    background-image: url("data:image/svg+xml,%3Csvg width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%23a3a3a3' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml,%3Csvg width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%2364748b' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");
     background-repeat: no-repeat;
     background-position: right 0.7rem top 50%;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
 }
 
 .topic-select:hover {
@@ -100,7 +102,8 @@ header p {
 }
 
 .topic-select:focus {
-    border-color: var(--text-primary);
+    border-color: var(--accent-color);
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
 }
 
 .topic-select option {
@@ -111,7 +114,7 @@ header p {
 .progress-container {
     width: 100%;
     max-width: 400px;
-    height: 3px;
+    height: 4px;
     background: var(--card-border);
     border-radius: 999px;
     margin: 1.5rem auto 0.5rem;
@@ -120,7 +123,7 @@ header p {
 
 .progress-bar {
     height: 100%;
-    background: var(--text-primary);
+    background: var(--success-bg);
     width: 0%;
     transition: width 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -128,7 +131,7 @@ header p {
 .progress-text {
     font-size: 0.8rem;
     color: var(--text-secondary);
-    letter-spacing: 0.02em;
+    font-weight: 500;
 }
 
 .flashcard-container {
@@ -166,13 +169,14 @@ header p {
     height: 100%;
     backface-visibility: hidden;
     -webkit-backface-visibility: hidden;
-    border-radius: 12px;
+    border-radius: 16px;
     padding: 3rem;
     display: flex;
     flex-direction: column;
     border: 1px solid var(--card-border);
     overflow: hidden;
-    transition: border-color 0.3s ease;
+    transition: all 0.3s ease;
+    box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.05);
 }
 
 .card-front {
@@ -186,17 +190,18 @@ header p {
 
 .flashcard:hover .card-face {
     border-color: var(--card-border-hover);
+    box-shadow: 0 20px 40px -10px rgba(0, 0, 0, 0.08);
 }
 
 .topic-badge {
     align-self: flex-start;
     padding: 0.25rem 0.6rem;
-    border-radius: 4px;
-    background: #1c1c1c;
-    border: 1px solid #2e2e2e;
-    color: #d4d4d4;
-    font-size: 0.7rem;
-    font-weight: 500;
+    border-radius: 6px;
+    background: #f1f5f9;
+    border: 1px solid #e2e8f0;
+    color: #475569;
+    font-size: 0.75rem;
+    font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 0.05em;
     margin-bottom: 2rem;
@@ -211,48 +216,48 @@ header p {
 }
 
 .card-content h2 {
-    font-size: 0.75rem;
+    font-size: 0.8rem;
     color: var(--text-secondary);
     text-transform: uppercase;
-    letter-spacing: 0.08em;
+    letter-spacing: 0.1em;
     margin-bottom: 0.75rem;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 #question-text {
-    font-size: 1.4rem;
-    font-weight: 500;
-    line-height: 1.5;
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 1.4;
     color: var(--text-primary);
-    letter-spacing: -0.01em;
+    letter-spacing: -0.02em;
 }
 
 #answer-text {
-    font-size: 1.05rem;
-    line-height: 1.7;
-    color: #d4d4d4;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #334155;
 }
 
 /* markdown styles inside answer */
 #answer-text pre {
-    background: #0a0a0a;
+    background: #f8fafc;
     padding: 1.25rem;
     border-radius: 8px;
     overflow-x: auto;
     margin: 1.25rem 0;
     font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
-    font-size: 0.85rem;
+    font-size: 0.9rem;
     border: 1px solid var(--card-border);
     line-height: 1.5;
 }
 
 #answer-text code {
-    background: #1f1f1f;
+    background: #f1f5f9;
     padding: 0.2rem 0.4rem;
     border-radius: 4px;
     font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
     font-size: 0.85em;
-    color: #e5e5e5;
+    color: #0f172a;
 }
 
 #answer-text p {
@@ -266,19 +271,19 @@ header p {
 
 .flip-instruction {
     align-self: center;
-    font-size: 0.8rem;
+    font-size: 0.85rem;
     color: var(--text-secondary);
-    opacity: 0.6;
+    opacity: 0.8;
     margin-top: 2rem;
-    letter-spacing: 0.02em;
+    font-weight: 500;
 }
 
 .nav-btn {
     background: var(--nav-btn-bg);
     border: 1px solid var(--nav-btn-border);
     color: var(--text-secondary);
-    width: 2.75rem;
-    height: 2.75rem;
+    width: 3rem;
+    height: 3rem;
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -286,16 +291,18 @@ header p {
     cursor: pointer;
     transition: all 0.2s ease;
     flex-shrink: 0;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
 }
 
 .nav-btn:hover {
     color: var(--text-primary);
     border-color: var(--card-border-hover);
-    background: #1f1f1f;
+    transform: translateY(-2px);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.05);
 }
 
 .nav-btn:active {
-    transform: scale(0.95);
+    transform: translateY(0);
 }
 
 .actions {
@@ -305,15 +312,15 @@ header p {
 }
 
 .action-btn {
-    padding: 0.6rem 1.5rem;
-    border-radius: 6px;
+    padding: 0.75rem 2rem;
+    border-radius: 8px;
     border: none;
-    font-size: 0.9rem;
-    font-weight: 500;
+    font-size: 1rem;
+    font-weight: 600;
     cursor: pointer;
     transition: all 0.2s ease;
     font-family: var(--font-family);
-    letter-spacing: 0.01em;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
 }
 
 .success-btn {
@@ -323,25 +330,27 @@ header p {
 
 .success-btn:hover {
     background: var(--success-hover);
+    transform: translateY(-2px);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
 }
 
 .success-btn:active {
-    transform: scale(0.98);
+    transform: translateY(0);
 }
 
 /* Custom Scrollbar for card content */
 .card-content::-webkit-scrollbar {
-    width: 4px;
+    width: 6px;
 }
 .card-content::-webkit-scrollbar-track {
     background: transparent;
 }
 .card-content::-webkit-scrollbar-thumb {
-    background: #333;
+    background: #cbd5e1;
     border-radius: 10px;
 }
 .card-content::-webkit-scrollbar-thumb:hover {
-    background: #444;
+    background: #94a3b8;
 }
 
 @media (max-width: 768px) {
