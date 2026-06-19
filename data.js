@@ -5998,10 +5998,605 @@ const questions = [
         "topic": "Algorithms",
         "question": "Algorithm Challenge #261: Can you implement a solution?",
         "answer": "This is a placeholder for Algorithm Challenge #261. Practice writing out the code!"
-    }
+    },
+  {
+    "id": 1001,
+    "topic": "Frontend / React",
+    "question": "What is React?",
+    "answer": "A JavaScript library for building user interfaces."
+  },
+  {
+    "id": 1002,
+    "topic": "Frontend / React",
+    "question": "What is JSX?",
+    "answer": "A syntax extension for JavaScript that looks similar to XML or HTML."
+  },
+  {
+    "id": 1003,
+    "topic": "Frontend / React",
+    "question": "What is the Virtual DOM?",
+    "answer": "A lightweight JavaScript representation of the actual DOM."
+  },
+  {
+    "id": 1004,
+    "topic": "Frontend / React",
+    "question": "What is a component in React?",
+    "answer": "A reusable piece of UI that can have its own state and props."
+  },
+  {
+    "id": 1005,
+    "topic": "Frontend / React",
+    "question": "What are props?",
+    "answer": "Inputs to a React component, passed down from a parent component."
+  },
+  {
+    "id": 1006,
+    "topic": "Frontend / React",
+    "question": "What is state in React?",
+    "answer": "An object that determines how a component renders and behaves."
+  },
+  {
+    "id": 1007,
+    "topic": "Frontend / React",
+    "question": "What is the difference between state and props?",
+    "answer": "Props are passed to the component, state is managed within the component."
+  },
+  {
+    "id": 1008,
+    "topic": "Frontend / React",
+    "question": "What is a pure component?",
+    "answer": "A component that renders the same output for the same state and props, without side effects."
+  },
+  {
+    "id": 1009,
+    "topic": "Frontend / React",
+    "question": "What are React hooks?",
+    "answer": "Functions that let you hook into React state and lifecycle features from function components."
+  },
+  {
+    "id": 1010,
+    "topic": "Frontend / React",
+    "question": "What does useState do?",
+    "answer": "It lets you add state variables to functional components."
+  },
+  {
+    "id": 1011,
+    "topic": "Frontend / React",
+    "question": "What does useEffect do?",
+    "answer": "It lets you perform side effects in functional components, similar to lifecycle methods."
+  },
+  {
+    "id": 1012,
+    "topic": "Frontend / React",
+    "question": "What is a higher-order component (HOC)?",
+    "answer": "A function that takes a component and returns a new component."
+  },
+  {
+    "id": 1013,
+    "topic": "Frontend / React",
+    "question": "What is Redux?",
+    "answer": "A predictable state container for JavaScript apps."
+  },
+  {
+    "id": 1014,
+    "topic": "Frontend / React",
+    "question": "What is the Context API?",
+    "answer": "A way to pass data through the component tree without having to pass props down manually at every level."
+  },
+  {
+    "id": 1015,
+    "topic": "Frontend / React",
+    "question": "What is a controlled component?",
+    "answer": "An input form element whose value is controlled by React in state."
+  },
+  {
+    "id": 1016,
+    "topic": "Frontend / React",
+    "question": "What is an uncontrolled component?",
+    "answer": "An input element that maintains its own internal state, usually accessed via a ref."
+  },
+  {
+    "id": 1017,
+    "topic": "Frontend / React",
+    "question": "What are refs in React?",
+    "answer": "They provide a way to access DOM nodes or React elements created in the render method."
+  },
+  {
+    "id": 1018,
+    "topic": "Frontend / React",
+    "question": "What does useRef do?",
+    "answer": "It returns a mutable ref object whose .current property is initialized to the passed argument."
+  },
+  {
+    "id": 1019,
+    "topic": "Frontend / React",
+    "question": "What is the difference between class and functional components?",
+    "answer": "Functional components are simpler, use hooks for state and lifecycle, while class components use ES6 classes and have this.state."
+  },
+  {
+    "id": 1020,
+    "topic": "Frontend / React",
+    "question": "What are fragments in React?",
+    "answer": "A way to group a list of children without adding extra nodes to the DOM."
+  },
+  {
+    "id": 1021,
+    "topic": "Frontend / React",
+    "question": "What is React Router?",
+    "answer": "A standard library for routing in React applications."
+  },
+  {
+    "id": 1022,
+    "topic": "Frontend / React",
+    "question": "What is the useMemo hook?",
+    "answer": "It returns a memoized value, optimizing performance by recomputing only when dependencies change."
+  },
+  {
+    "id": 1023,
+    "topic": "Frontend / React",
+    "question": "What is the useCallback hook?",
+    "answer": "It returns a memoized callback, useful for preventing unnecessary child re-renders."
+  },
+  {
+    "id": 1024,
+    "topic": "Frontend / React",
+    "question": "What is prop drilling?",
+    "answer": "The process of passing props down multiple levels in a component tree to reach a deeply nested component."
+  },
+  {
+    "id": 1025,
+    "topic": "Frontend / React",
+    "question": "What is the difference between Element and Component?",
+    "answer": "An element describes what you want to see on the screen, a component is a function or class that returns elements."
+  },
+  {
+    "id": 1026,
+    "topic": "Frontend / React",
+    "question": "How does React handle routing?",
+    "answer": "Typically using a third-party library like React Router which uses the History API."
+  },
+  {
+    "id": 1027,
+    "topic": "Frontend / React",
+    "question": "What is strict mode in React?",
+    "answer": "A tool for highlighting potential problems in an application, mostly checking for deprecated or unsafe lifecycles."
+  },
+  {
+    "id": 1028,
+    "topic": "Frontend / React",
+    "question": "What are synthetic events?",
+    "answer": "React's cross-browser wrapper around the browser's native event system."
+  },
+  {
+    "id": 1029,
+    "topic": "Frontend / React",
+    "question": "What is lifting state up?",
+    "answer": "Moving state to the closest common ancestor of the components that need it."
+  },
+  {
+    "id": 1030,
+    "topic": "Frontend / React",
+    "question": "How do you prevent a component from rendering?",
+    "answer": "By returning null from its render method or functional body."
+  },
+  {
+    "id": 1031,
+    "topic": "Frontend / React",
+    "question": "What is React Fiber?",
+    "answer": "The core algorithm in React 16+ used to enable incremental rendering."
+  },
+  {
+    "id": 1032,
+    "topic": "Frontend / React",
+    "question": "What is hydration in React?",
+    "answer": "The process of attaching event listeners to the static HTML generated by Server-Side Rendering (SSR)."
+  },
+  {
+    "id": 1033,
+    "topic": "Frontend / React",
+    "question": "What is Next.js?",
+    "answer": "A popular React framework that enables features such as server-side rendering and generating static websites."
+  },
+  {
+    "id": 1034,
+    "topic": "Frontend / React",
+    "question": "What is the difference between useEffect and useLayoutEffect?",
+    "answer": "useEffect runs asynchronously after paint, useLayoutEffect runs synchronously before paint."
+  },
+  {
+    "id": 1035,
+    "topic": "Frontend / React",
+    "question": "What is a custom hook?",
+    "answer": "A JavaScript function whose name starts with 'use' and that may call other hooks."
+  },
+  {
+    "id": 1036,
+    "topic": "Frontend / React",
+    "question": "What is memoization in React?",
+    "answer": "Caching the results of expensive function calls to avoid recalculation, achieved via useMemo or React.memo."
+  },
+  {
+    "id": 1037,
+    "topic": "Frontend / React",
+    "question": "What does React.memo do?",
+    "answer": "A higher order component that skips rendering a component if its props haven't changed."
+  },
+  {
+    "id": 1038,
+    "topic": "Frontend / React",
+    "question": "What is the difference between useReducer and useState?",
+    "answer": "useReducer is preferred for complex state logic involving multiple sub-values or when the next state depends on the previous one."
+  },
+  {
+    "id": 1039,
+    "topic": "Frontend / React",
+    "question": "What is an Error Boundary?",
+    "answer": "A React component that catches JavaScript errors anywhere in their child component tree, logs them, and displays a fallback UI."
+  },
+  {
+    "id": 1040,
+    "topic": "Frontend / React",
+    "question": "How do you create an Error Boundary?",
+    "answer": "By creating a class component and implementing static getDerivedStateFromError or componentDidCatch."
+  },
+  {
+    "id": 1041,
+    "topic": "Frontend / React",
+    "question": "What is lazy loading in React?",
+    "answer": "Loading components only when they are needed using React.lazy and Suspense."
+  },
+  {
+    "id": 1042,
+    "topic": "Frontend / React",
+    "question": "What is React.Suspense?",
+    "answer": "A component that lets you specify a loading indicator in case some components in the tree below it are not yet ready to render."
+  },
+  {
+    "id": 1043,
+    "topic": "Frontend / React",
+    "question": "What are portals in React?",
+    "answer": "A way to render children into a DOM node that exists outside the DOM hierarchy of the parent component (e.g., for modals)."
+  },
+  {
+    "id": 1044,
+    "topic": "Frontend / React",
+    "question": "How do you pass data between sibling components?",
+    "answer": "By lifting the state up to their nearest common parent component, or using Context/Redux."
+  },
+  {
+    "id": 1045,
+    "topic": "Frontend / React",
+    "question": "What is the purpose of the 'key' prop?",
+    "answer": "It helps React identify which items have changed, are added, or are removed in a list, optimizing the rendering process."
+  },
+  {
+    "id": 1046,
+    "topic": "Frontend / React",
+    "question": "What happens if you don't use keys in lists?",
+    "answer": "React will fallback to using the array index as keys, which can lead to performance issues and UI bugs when items are reordered."
+  },
+  {
+    "id": 1047,
+    "topic": "Frontend / React",
+    "question": "How can you optimize a React app's performance?",
+    "answer": "Using useMemo, useCallback, React.memo, code splitting, lazy loading, and avoiding inline functions/objects in props."
+  },
+  {
+    "id": 1048,
+    "topic": "Frontend / React",
+    "question": "What is the children prop?",
+    "answer": "A special prop containing the content passed between a component's opening and closing tags."
+  },
+  {
+    "id": 1049,
+    "topic": "Frontend / React",
+    "question": "What is the difference between shadow DOM and virtual DOM?",
+    "answer": "Shadow DOM is a browser technology for scoping CSS and HTML, Virtual DOM is a concept used by React to optimize DOM updates."
+  },
+  {
+    "id": 1050,
+    "topic": "Frontend / React",
+    "question": "What is Flux?",
+    "answer": "An architectural pattern used in React apps for managing application state via a unidirectional data flow."
+  },
+  {
+    "id": 1051,
+    "topic": "Frontend / React",
+    "question": "What is unidirectional data flow?",
+    "answer": "A design pattern where data has one, and only one, way to be transferred to other parts of the application."
+  },
+  {
+    "id": 1052,
+    "topic": "Frontend / React",
+    "question": "What is the purpose of useImperativeHandle?",
+    "answer": "It customizes the instance value that is exposed to parent components when using ref."
+  },
+  {
+    "id": 1053,
+    "topic": "Frontend / React",
+    "question": "What is concurrent mode in React?",
+    "answer": "A set of new features that help React apps stay responsive and gracefully adjust to the user's device capabilities and network speed."
+  },
+  {
+    "id": 1054,
+    "topic": "Frontend / React",
+    "question": "What is Server-Side Rendering (SSR)?",
+    "answer": "Rendering the React application on the server and sending the fully populated HTML to the client."
+  },
+  {
+    "id": 1055,
+    "topic": "Frontend / React",
+    "question": "What is Client-Side Rendering (CSR)?",
+    "answer": "Rendering the React application in the browser using JavaScript, starting with an empty HTML shell."
+  },
+  {
+    "id": 1056,
+    "topic": "Frontend / React",
+    "question": "What is Static Site Generation (SSG)?",
+    "answer": "Generating HTML pages at build time, which can be served extremely fast by a CDN."
+  },
+  {
+    "id": 1057,
+    "topic": "Frontend / React",
+    "question": "Why is React considered declarative?",
+    "answer": "You describe what the UI should look like for a given state, and React handles the DOM updates (the 'how')."
+  },
+  {
+    "id": 1058,
+    "topic": "Frontend / React",
+    "question": "What is a pure function?",
+    "answer": "A function that always returns the same output for the same input and has no side effects. Redux reducers must be pure functions."
+  },
+  {
+    "id": 1059,
+    "topic": "Frontend / React",
+    "question": "What is a side effect in React?",
+    "answer": "Any operation that interacts with the outside world, like fetching data, modifying the DOM directly, or setting timers."
+  },
+  {
+    "id": 1060,
+    "topic": "Frontend / React",
+    "question": "How do you handle forms in React?",
+    "answer": "Typically using controlled components where input values are stored in state and updated via an onChange handler."
+  },
+  {
+    "id": 1061,
+    "topic": "Frontend / React",
+    "question": "What is the difference between React and React Native?",
+    "answer": "React is used for building web applications, React Native uses React to build native mobile apps for iOS and Android."
+  },
+  {
+    "id": 1062,
+    "topic": "Frontend / React",
+    "question": "What is the significance of package.json?",
+    "answer": "It contains metadata about the project and lists the dependencies and scripts needed to build and run the app."
+  },
+  {
+    "id": 1063,
+    "topic": "Frontend / React",
+    "question": "What is Webpack?",
+    "answer": "A static module bundler for modern JavaScript applications, often used under the hood by Create React App."
+  },
+  {
+    "id": 1064,
+    "topic": "Frontend / React",
+    "question": "What is Babel?",
+    "answer": "A JavaScript compiler that transforms modern JS (ES6+) and JSX into backwards-compatible JavaScript for older browsers."
+  },
+  {
+    "id": 1065,
+    "topic": "Frontend / React",
+    "question": "What is Create React App (CRA)?",
+    "answer": "An officially supported CLI tool to create single-page React applications with zero build configuration."
+  },
+  {
+    "id": 1066,
+    "topic": "Frontend / React",
+    "question": "What are default props?",
+    "answer": "A way to define default values for props using the defaultProps property on a component."
+  },
+  {
+    "id": 1067,
+    "topic": "Frontend / React",
+    "question": "How do you conditionally render in React?",
+    "answer": "Using JavaScript operators like if, the ternary operator (condition ? true : false), or logical AND (condition && true)."
+  },
+  {
+    "id": 1068,
+    "topic": "Frontend / React",
+    "question": "What is the danger of using dangerouslySetInnerHTML?",
+    "answer": "It can expose your application to Cross-Site Scripting (XSS) attacks if the input is not properly sanitized."
+  },
+  {
+    "id": 1069,
+    "topic": "Frontend / React",
+    "question": "What is React DevTools?",
+    "answer": "A browser extension for Chrome and Firefox that allows you to inspect the React component hierarchy and state."
+  },
+  {
+    "id": 1070,
+    "topic": "Frontend / React",
+    "question": "What is the purpose of the useEffect dependency array?",
+    "answer": "It tells React to only re-run the effect if one of the values in the array has changed."
+  },
+  {
+    "id": 1071,
+    "topic": "Frontend / React",
+    "question": "What happens if you omit the dependency array in useEffect?",
+    "answer": "The effect will run after every single render of the component."
+  },
+  {
+    "id": 1072,
+    "topic": "Frontend / React",
+    "question": "What happens if you pass an empty array [] to useEffect?",
+    "answer": "The effect will only run once after the initial render, similar to componentDidMount."
+  },
+  {
+    "id": 1073,
+    "topic": "Frontend / React",
+    "question": "How do you clean up an effect in useEffect?",
+    "answer": "By returning a cleanup function from the effect."
+  },
+  {
+    "id": 1074,
+    "topic": "Frontend / React",
+    "question": "What is a Thunk in Redux?",
+    "answer": "Middleware that allows you to write action creators that return a function instead of an action, useful for async operations."
+  },
+  {
+    "id": 1075,
+    "topic": "Frontend / React",
+    "question": "What is Redux Saga?",
+    "answer": "A middleware library for Redux to handle side effects, often considered an alternative to Redux Thunk using ES6 Generators."
+  },
+  {
+    "id": 1076,
+    "topic": "Frontend / React",
+    "question": "What is the store in Redux?",
+    "answer": "The central object that holds the complete state tree of your app."
+  },
+  {
+    "id": 1077,
+    "topic": "Frontend / React",
+    "question": "What is a reducer in Redux?",
+    "answer": "A pure function that takes the current state and an action, and returns the next state."
+  },
+  {
+    "id": 1078,
+    "topic": "Frontend / React",
+    "question": "What is an action in Redux?",
+    "answer": "A plain JavaScript object that describes what happened, must have a 'type' property."
+  },
+  {
+    "id": 1079,
+    "topic": "Frontend / React",
+    "question": "What is dispatch in Redux?",
+    "answer": "A function used to send actions to the store to trigger a state change."
+  },
+  {
+    "id": 1080,
+    "topic": "Frontend / React",
+    "question": "What is the React Context API used for?",
+    "answer": "Sharing state across the entire app (or part of it) lightly, without using a complex library like Redux."
+  },
+  {
+    "id": 1081,
+    "topic": "Frontend / React",
+    "question": "How do you access Context in a functional component?",
+    "answer": "By using the useContext hook."
+  },
+  {
+    "id": 1082,
+    "topic": "Frontend / React",
+    "question": "What is forwardRef?",
+    "answer": "A function that lets a component pass a ref it receives further down to a child component."
+  },
+  {
+    "id": 1083,
+    "topic": "Frontend / React",
+    "question": "What is a render prop?",
+    "answer": "A technique for sharing code between React components using a prop whose value is a function."
+  },
+  {
+    "id": 1084,
+    "topic": "Frontend / React",
+    "question": "Why should you avoid using indices as keys?",
+    "answer": "Because if the order of items changes, React might reuse the wrong DOM elements, leading to bugs and performance hits."
+  },
+  {
+    "id": 1085,
+    "topic": "Frontend / React",
+    "question": "What are the advantages of React?",
+    "answer": "Component-based architecture, virtual DOM for performance, unidirectional data flow, strong community, and rich ecosystem."
+  },
+  {
+    "id": 1086,
+    "topic": "Frontend / React",
+    "question": "What is the disadvantage of React?",
+    "answer": "High pace of change, poor documentation for some third-party libs, and it's only a view library (requires other libs for routing, state, etc)."
+  },
+  {
+    "id": 1087,
+    "topic": "Frontend / React",
+    "question": "What is Styled Components?",
+    "answer": "A library that allows you to write CSS in JS using tagged template literals, scoping styles to components."
+  },
+  {
+    "id": 1088,
+    "topic": "Frontend / React",
+    "question": "What is React Testing Library?",
+    "answer": "A testing utility that encourages writing tests that resemble the way your software is used, focusing on DOM nodes rather than instances."
+  },
+  {
+    "id": 1089,
+    "topic": "Frontend / React",
+    "question": "What is Jest?",
+    "answer": "A delightful JavaScript Testing Framework with a focus on simplicity, commonly used with React."
+  },
+  {
+    "id": 1090,
+    "topic": "Frontend / React",
+    "question": "How do you handle asynchronous data fetching in React?",
+    "answer": "Using fetch or axios inside useEffect, handling loading and error states in component state."
+  },
+  {
+    "id": 1091,
+    "topic": "Frontend / React",
+    "question": "What is the difference between React.cloneElement and React.createElement?",
+    "answer": "createElement creates a new element from a type, cloneElement creates a new element using an existing element as a starting point."
+  },
+  {
+    "id": 1092,
+    "topic": "Frontend / React",
+    "question": "What is the StrictMode warning about 'findDOMNode is deprecated'?",
+    "answer": "It means a component or library is using an old, deprecated way to access DOM nodes instead of using refs."
+  },
+  {
+    "id": 1093,
+    "topic": "Frontend / React",
+    "question": "What is the role of ReactDOM?",
+    "answer": "It provides DOM-specific methods that can be used at the top level of your app and as an escape hatch to get outside the React model."
+  },
+  {
+    "id": 1094,
+    "topic": "Frontend / React",
+    "question": "What is React.Fragment short syntax?",
+    "answer": "Empty angle brackets: <>...</>."
+  },
+  {
+    "id": 1095,
+    "topic": "Frontend / React",
+    "question": "How can you force a component to re-render without changing state or props?",
+    "answer": "You shouldn't typically do this, but you can use a dummy state toggle or a key prop change."
+  },
+  {
+    "id": 1096,
+    "topic": "Frontend / React",
+    "question": "What is the difference between shallow routing and regular routing in Next.js?",
+    "answer": "Shallow routing allows you to change the URL without running data fetching methods again, keeping state intact."
+  },
+  {
+    "id": 1097,
+    "topic": "Frontend / React",
+    "question": "What is the 'window is not defined' error in Next.js?",
+    "answer": "It occurs when you try to access the browser's window object during server-side rendering (where window doesn't exist)."
+  },
+  {
+    "id": 1098,
+    "topic": "Frontend / React",
+    "question": "How do you fix 'window is not defined' in React/Next.js?",
+    "answer": "Check if typeof window !== 'undefined' before accessing it, or put the code inside a useEffect (which only runs on the client)."
+  },
+  {
+    "id": 1099,
+    "topic": "Frontend / React",
+    "question": "What is Tailwind CSS?",
+    "answer": "A utility-first CSS framework that can be easily integrated with React to style components directly in className."
+  },
+  {
+    "id": 1100,
+    "topic": "Frontend / React",
+    "question": "Why is React so popular?",
+    "answer": "Its declarative nature, component reusability, virtual DOM performance, and the massive ecosystem built around it."
+  }
 ];
-
-// We export this for potential use, but since we use simple script tags it will be globally available
-if (typeof window !== 'undefined') {
-    window.flashcardData = questions;
-}
