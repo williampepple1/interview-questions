@@ -4,7 +4,18 @@ document.addEventListener('DOMContentLoaded', () => {
     let currentIndex = 0;
     let knownCards = new Set();
     const allData = (typeof questions !== 'undefined' ? questions : (window.flashcardData || []));
-    let currentData = [...allData]; // Filtered data
+    
+    // Helper to shuffle an array
+    function shuffleArray(array) {
+        const newArr = [...array];
+        for (let i = newArr.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [newArr[i], newArr[j]] = [newArr[j], newArr[i]];
+        }
+        return newArr;
+    }
+
+    let currentData = shuffleArray(allData); // Filtered and randomized data
 
     // Elements
     const flashcard = document.getElementById('flashcard');
@@ -90,9 +101,10 @@ document.addEventListener('DOMContentLoaded', () => {
     topicFilter.addEventListener('change', (e) => {
         const selectedTopic = e.target.value;
         if (selectedTopic === 'all') {
-            currentData = [...allData];
+            currentData = shuffleArray(allData);
         } else {
-            currentData = allData.filter(card => (card.topic || 'General') === selectedTopic);
+            const filtered = allData.filter(card => (card.topic || 'General') === selectedTopic);
+            currentData = shuffleArray(filtered);
         }
         currentIndex = 0; // Reset index when filter changes
         updateCard();
