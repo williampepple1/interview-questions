@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // State
     let currentIndex = 0;
     let knownCards = new Set();
-    const allData = window.flashcardData || [];
+    const allData = (typeof questions !== 'undefined' ? questions : (window.flashcardData || []));
     let currentData = [...allData]; // Filtered data
 
     // Elements
