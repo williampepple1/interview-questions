@@ -6898,5 +6898,2105 @@ const questions = [
     "topic": "Web Security",
     "question": "What is the danger of storing JWTs in Local Storage?",
     "answer": "They are susceptible to XSS attacks. If an attacker injects JavaScript, they can easily read Local Storage and steal the token. HttpOnly cookies are a more secure alternative."
+  },
+  {
+    "id": 1151,
+    "topic": "Networking",
+    "question": "What is the meaning of 100 Continue?",
+    "answer": "The server has received the request headers and the client should proceed to send the request body."
+  },
+  {
+    "id": 1152,
+    "topic": "Networking",
+    "question": "What is the meaning of 101 Switching Protocols?",
+    "answer": "The requester has asked the server to switch protocols and the server has agreed to do so."
+  },
+  {
+    "id": 1153,
+    "topic": "Networking",
+    "question": "What is the meaning of 200 OK?",
+    "answer": "The request has succeeded."
+  },
+  {
+    "id": 1154,
+    "topic": "Networking",
+    "question": "What is the meaning of 201 Created?",
+    "answer": "The request succeeded, and a new resource was created as a result."
+  },
+  {
+    "id": 1155,
+    "topic": "Networking",
+    "question": "What is the meaning of 202 Accepted?",
+    "answer": "The request has been received but not yet acted upon."
+  },
+  {
+    "id": 1156,
+    "topic": "Networking",
+    "question": "What is the meaning of 204 No Content?",
+    "answer": "The server successfully processed the request and is not returning any content."
+  },
+  {
+    "id": 1157,
+    "topic": "Networking",
+    "question": "What is the meaning of 206 Partial Content?",
+    "answer": "The server is delivering only part of the resource due to a range header sent by the client."
+  },
+  {
+    "id": 1158,
+    "topic": "Networking",
+    "question": "What is the meaning of 300 Multiple Choices?",
+    "answer": "The request has more than one possible response."
+  },
+  {
+    "id": 1159,
+    "topic": "Networking",
+    "question": "What is the meaning of 301 Moved Permanently?",
+    "answer": "The URL of the requested resource has been changed permanently."
+  },
+  {
+    "id": 1160,
+    "topic": "Networking",
+    "question": "What is the meaning of 302 Found?",
+    "answer": "The URI of requested resource has been changed temporarily."
+  },
+  {
+    "id": 1161,
+    "topic": "Networking",
+    "question": "What is the meaning of 304 Not Modified?",
+    "answer": "Indicates that the resource has not been modified since the version specified by the request headers."
+  },
+  {
+    "id": 1162,
+    "topic": "Networking",
+    "question": "What is the meaning of 307 Temporary Redirect?",
+    "answer": "The server directs the client to get the requested resource at another URI with same method that was used in the prior request."
+  },
+  {
+    "id": 1163,
+    "topic": "Networking",
+    "question": "What is the meaning of 308 Permanent Redirect?",
+    "answer": "The resource is now permanently located at another URI, specified by the Location: HTTP Response header."
+  },
+  {
+    "id": 1164,
+    "topic": "Networking",
+    "question": "What is the meaning of 400 Bad Request?",
+    "answer": "The server could not understand the request due to invalid syntax."
+  },
+  {
+    "id": 1165,
+    "topic": "Networking",
+    "question": "What is the meaning of 401 Unauthorized?",
+    "answer": "The client must authenticate itself to get the requested response."
+  },
+  {
+    "id": 1166,
+    "topic": "Networking",
+    "question": "What is the meaning of 403 Forbidden?",
+    "answer": "The client does not have access rights to the content."
+  },
+  {
+    "id": 1167,
+    "topic": "Networking",
+    "question": "What is the meaning of 404 Not Found?",
+    "answer": "The server can not find the requested resource."
+  },
+  {
+    "id": 1168,
+    "topic": "Networking",
+    "question": "What is the meaning of 405 Method Not Allowed?",
+    "answer": "The request method is known by the server but is not supported by the target resource."
+  },
+  {
+    "id": 1169,
+    "topic": "Networking",
+    "question": "What is the meaning of 406 Not Acceptable?",
+    "answer": "The server doesn't find any content that conforms to the criteria given by the user agent."
+  },
+  {
+    "id": 1170,
+    "topic": "Networking",
+    "question": "What is the meaning of 408 Request Timeout?",
+    "answer": "The server would like to shut down this unused connection."
+  },
+  {
+    "id": 1171,
+    "topic": "Networking",
+    "question": "What is the meaning of 409 Conflict?",
+    "answer": "This response is sent when a request conflicts with the current state of the server."
+  },
+  {
+    "id": 1172,
+    "topic": "Networking",
+    "question": "What is the meaning of 410 Gone?",
+    "answer": "This response is sent when the requested content has been permanently deleted from server."
+  },
+  {
+    "id": 1173,
+    "topic": "Networking",
+    "question": "What is the meaning of 411 Length Required?",
+    "answer": "Server rejected the request because the Content-Length header field is not defined."
+  },
+  {
+    "id": 1174,
+    "topic": "Networking",
+    "question": "What is the meaning of 413 Payload Too Large?",
+    "answer": "Request entity is larger than limits defined by server."
+  },
+  {
+    "id": 1175,
+    "topic": "Networking",
+    "question": "What is the meaning of 414 URI Too Long?",
+    "answer": "The URI requested by the client is longer than the server is willing to interpret."
+  },
+  {
+    "id": 1176,
+    "topic": "Networking",
+    "question": "What is the meaning of 415 Unsupported Media Type?",
+    "answer": "The media format of the requested data is not supported by the server."
+  },
+  {
+    "id": 1177,
+    "topic": "Networking",
+    "question": "What is the meaning of 418 I'm a teapot?",
+    "answer": "The server refuses the attempt to brew coffee with a teapot (April Fools joke)."
+  },
+  {
+    "id": 1178,
+    "topic": "Networking",
+    "question": "What is the meaning of 422 Unprocessable Entity?",
+    "answer": "The request was well-formed but was unable to be followed due to semantic errors."
+  },
+  {
+    "id": 1179,
+    "topic": "Networking",
+    "question": "What is the meaning of 429 Too Many Requests?",
+    "answer": "The user has sent too many requests in a given amount of time (rate limiting)."
+  },
+  {
+    "id": 1180,
+    "topic": "Networking",
+    "question": "What is the meaning of 431 Request Header Fields Too Large?",
+    "answer": "The server is unwilling to process the request because its header fields are too large."
+  },
+  {
+    "id": 1181,
+    "topic": "Networking",
+    "question": "What is the meaning of 451 Unavailable For Legal Reasons?",
+    "answer": "The user agent requested a resource that cannot legally be provided."
+  },
+  {
+    "id": 1182,
+    "topic": "Networking",
+    "question": "What is the meaning of 500 Internal Server Error?",
+    "answer": "The server has encountered a situation it does not know how to handle."
+  },
+  {
+    "id": 1183,
+    "topic": "Networking",
+    "question": "What is the meaning of 501 Not Implemented?",
+    "answer": "The request method is not supported by the server and cannot be handled."
+  },
+  {
+    "id": 1184,
+    "topic": "Networking",
+    "question": "What is the meaning of 502 Bad Gateway?",
+    "answer": "The server, while working as a gateway, got an invalid response."
+  },
+  {
+    "id": 1185,
+    "topic": "Networking",
+    "question": "What is the meaning of 503 Service Unavailable?",
+    "answer": "The server is not ready to handle the request (e.g., down for maintenance or overloaded)."
+  },
+  {
+    "id": 1186,
+    "topic": "Networking",
+    "question": "What is the meaning of 504 Gateway Timeout?",
+    "answer": "The server is acting as a gateway and cannot get a response in time."
+  },
+  {
+    "id": 1187,
+    "topic": "Networking",
+    "question": "What is the meaning of 505 HTTP Version Not Supported?",
+    "answer": "The HTTP version used in the request is not supported by the server."
+  },
+  {
+    "id": 1188,
+    "topic": "Networking",
+    "question": "What is the meaning of 507 Insufficient Storage?",
+    "answer": "The method could not be performed on the resource because the server is unable to store the representation needed."
+  },
+  {
+    "id": 1189,
+    "topic": "Networking",
+    "question": "What is the meaning of 508 Loop Detected?",
+    "answer": "The server detected an infinite loop while processing the request."
+  },
+  {
+    "id": 1190,
+    "topic": "Networking",
+    "question": "What is the meaning of 511 Network Authentication Required?",
+    "answer": "Indicates that the client needs to authenticate to gain network access."
+  },
+  {
+    "id": 1191,
+    "topic": "Linux & CLI",
+    "question": "What does the Linux command 'ls' do?",
+    "answer": "List directory contents."
+  },
+  {
+    "id": 1192,
+    "topic": "Linux & CLI",
+    "question": "What does the Linux command 'cd' do?",
+    "answer": "Change the shell working directory."
+  },
+  {
+    "id": 1193,
+    "topic": "Linux & CLI",
+    "question": "What does the Linux command 'pwd' do?",
+    "answer": "Print the name of the current working directory."
+  },
+  {
+    "id": 1194,
+    "topic": "Linux & CLI",
+    "question": "What does the Linux command 'grep' do?",
+    "answer": "Print lines that match a regular expression."
+  },
+  {
+    "id": 1195,
+    "topic": "Linux & CLI",
+    "question": "What does the Linux command 'awk' do?",
+    "answer": "A pattern scanning and processing language."
+  },
+  {
+    "id": 1196,
+    "topic": "Linux & CLI",
+    "question": "What does the Linux command 'sed' do?",
+    "answer": "A stream editor for filtering and transforming text."
+  },
+  {
+    "id": 1197,
+    "topic": "Linux & CLI",
+    "question": "What does the Linux command 'find' do?",
+    "answer": "Search for files in a directory hierarchy."
+  },
+  {
+    "id": 1198,
+    "topic": "Linux & CLI",
+    "question": "What does the Linux command 'tar' do?",
+    "answer": "An archiving utility."
+  },
+  {
+    "id": 1199,
+    "topic": "Linux & CLI",
+    "question": "What does the Linux command 'gzip' do?",
+    "answer": "Compress or expand files."
+  },
+  {
+    "id": 1200,
+    "topic": "Linux & CLI",
+    "question": "What does the Linux command 'chmod' do?",
+    "answer": "Change file mode bits (permissions)."
+  },
+  {
+    "id": 1201,
+    "topic": "Linux & CLI",
+    "question": "What does the Linux command 'chown' do?",
+    "answer": "Change file owner and group."
+  },
+  {
+    "id": 1202,
+    "topic": "Linux & CLI",
+    "question": "What does the Linux command 'ps' do?",
+    "answer": "Report a snapshot of the current processes."
+  },
+  {
+    "id": 1203,
+    "topic": "Linux & CLI",
+    "question": "What does the Linux command 'top' do?",
+    "answer": "Display Linux processes dynamically."
+  },
+  {
+    "id": 1204,
+    "topic": "Linux & CLI",
+    "question": "What does the Linux command 'htop' do?",
+    "answer": "An interactive process viewer."
+  },
+  {
+    "id": 1205,
+    "topic": "Linux & CLI",
+    "question": "What does the Linux command 'df' do?",
+    "answer": "Report file system disk space usage."
+  },
+  {
+    "id": 1206,
+    "topic": "Linux & CLI",
+    "question": "What does the Linux command 'du' do?",
+    "answer": "Estimate file space usage."
+  },
+  {
+    "id": 1207,
+    "topic": "Linux & CLI",
+    "question": "What does the Linux command 'free' do?",
+    "answer": "Display amount of free and used memory in the system."
+  },
+  {
+    "id": 1208,
+    "topic": "Linux & CLI",
+    "question": "What does the Linux command 'kill' do?",
+    "answer": "Send a signal to a process (usually to terminate it)."
+  },
+  {
+    "id": 1209,
+    "topic": "Linux & CLI",
+    "question": "What does the Linux command 'curl' do?",
+    "answer": "Transfer a URL."
+  },
+  {
+    "id": 1210,
+    "topic": "Linux & CLI",
+    "question": "What does the Linux command 'wget' do?",
+    "answer": "The non-interactive network downloader."
+  },
+  {
+    "id": 1211,
+    "topic": "Linux & CLI",
+    "question": "What does the Linux command 'ping' do?",
+    "answer": "Send ICMP ECHO_REQUEST to network hosts."
+  },
+  {
+    "id": 1212,
+    "topic": "Linux & CLI",
+    "question": "What does the Linux command 'netstat' do?",
+    "answer": "Print network connections, routing tables, and interface statistics."
+  },
+  {
+    "id": 1213,
+    "topic": "Linux & CLI",
+    "question": "What does the Linux command 'ssh' do?",
+    "answer": "OpenSSH SSH client (remote login program)."
+  },
+  {
+    "id": 1214,
+    "topic": "Linux & CLI",
+    "question": "What does the Linux command 'scp' do?",
+    "answer": "Secure copy (remote file copy program)."
+  },
+  {
+    "id": 1215,
+    "topic": "Linux & CLI",
+    "question": "What does the Linux command 'rsync' do?",
+    "answer": "A fast, versatile, remote (and local) file-copying tool."
+  },
+  {
+    "id": 1216,
+    "topic": "Linux & CLI",
+    "question": "What does the Linux command 'tail' do?",
+    "answer": "Output the last part of files."
+  },
+  {
+    "id": 1217,
+    "topic": "Linux & CLI",
+    "question": "What does the Linux command 'head' do?",
+    "answer": "Output the first part of files."
+  },
+  {
+    "id": 1218,
+    "topic": "Linux & CLI",
+    "question": "What does the Linux command 'cat' do?",
+    "answer": "Concatenate files and print on the standard output."
+  },
+  {
+    "id": 1219,
+    "topic": "Linux & CLI",
+    "question": "What does the Linux command 'less' do?",
+    "answer": "Opposite of more (view text files with scroll capability)."
+  },
+  {
+    "id": 1220,
+    "topic": "Linux & CLI",
+    "question": "What does the Linux command 'mkdir' do?",
+    "answer": "Make directories."
+  },
+  {
+    "id": 1221,
+    "topic": "Linux & CLI",
+    "question": "What does the Linux command 'rm' do?",
+    "answer": "Remove files or directories."
+  },
+  {
+    "id": 1222,
+    "topic": "Linux & CLI",
+    "question": "What does the Linux command 'cp' do?",
+    "answer": "Copy files and directories."
+  },
+  {
+    "id": 1223,
+    "topic": "Linux & CLI",
+    "question": "What does the Linux command 'mv' do?",
+    "answer": "Move (rename) files."
+  },
+  {
+    "id": 1224,
+    "topic": "Linux & CLI",
+    "question": "What does the Linux command 'echo' do?",
+    "answer": "Display a line of text."
+  },
+  {
+    "id": 1225,
+    "topic": "Linux & CLI",
+    "question": "What does the Linux command 'man' do?",
+    "answer": "An interface to the system reference manuals."
+  },
+  {
+    "id": 1226,
+    "topic": "Design Patterns",
+    "question": "What is the Singleton Design Pattern?",
+    "answer": "Ensure a class only has one instance, and provide a global point of access to it."
+  },
+  {
+    "id": 1227,
+    "topic": "Design Patterns",
+    "question": "What is the Factory Method Design Pattern?",
+    "answer": "Define an interface for creating an object, but let subclasses decide which class to instantiate."
+  },
+  {
+    "id": 1228,
+    "topic": "Design Patterns",
+    "question": "What is the Abstract Factory Design Pattern?",
+    "answer": "Provide an interface for creating families of related or dependent objects without specifying their concrete classes."
+  },
+  {
+    "id": 1229,
+    "topic": "Design Patterns",
+    "question": "What is the Builder Design Pattern?",
+    "answer": "Separate the construction of a complex object from its representation."
+  },
+  {
+    "id": 1230,
+    "topic": "Design Patterns",
+    "question": "What is the Prototype Design Pattern?",
+    "answer": "Specify the kinds of objects to create using a prototypical instance, and create new objects by copying this prototype."
+  },
+  {
+    "id": 1231,
+    "topic": "Design Patterns",
+    "question": "What is the Adapter Design Pattern?",
+    "answer": "Convert the interface of a class into another interface clients expect."
+  },
+  {
+    "id": 1232,
+    "topic": "Design Patterns",
+    "question": "What is the Bridge Design Pattern?",
+    "answer": "Decouple an abstraction from its implementation so that the two can vary independently."
+  },
+  {
+    "id": 1233,
+    "topic": "Design Patterns",
+    "question": "What is the Composite Design Pattern?",
+    "answer": "Compose objects into tree structures to represent part-whole hierarchies."
+  },
+  {
+    "id": 1234,
+    "topic": "Design Patterns",
+    "question": "What is the Decorator Design Pattern?",
+    "answer": "Attach additional responsibilities to an object dynamically."
+  },
+  {
+    "id": 1235,
+    "topic": "Design Patterns",
+    "question": "What is the Facade Design Pattern?",
+    "answer": "Provide a unified interface to a set of interfaces in a subsystem."
+  },
+  {
+    "id": 1236,
+    "topic": "Design Patterns",
+    "question": "What is the Flyweight Design Pattern?",
+    "answer": "Use sharing to support large numbers of fine-grained objects efficiently."
+  },
+  {
+    "id": 1237,
+    "topic": "Design Patterns",
+    "question": "What is the Proxy Design Pattern?",
+    "answer": "Provide a surrogate or placeholder for another object to control access to it."
+  },
+  {
+    "id": 1238,
+    "topic": "Design Patterns",
+    "question": "What is the Chain of Responsibility Design Pattern?",
+    "answer": "Avoid coupling the sender of a request to its receiver by giving more than one object a chance to handle the request."
+  },
+  {
+    "id": 1239,
+    "topic": "Design Patterns",
+    "question": "What is the Command Design Pattern?",
+    "answer": "Encapsulate a request as an object, thereby letting you parameterize clients with different requests."
+  },
+  {
+    "id": 1240,
+    "topic": "Design Patterns",
+    "question": "What is the Interpreter Design Pattern?",
+    "answer": "Given a language, define a representation for its grammar along with an interpreter that uses the representation to interpret sentences in the language."
+  },
+  {
+    "id": 1241,
+    "topic": "Design Patterns",
+    "question": "What is the Iterator Design Pattern?",
+    "answer": "Provide a way to access the elements of an aggregate object sequentially without exposing its underlying representation."
+  },
+  {
+    "id": 1242,
+    "topic": "Design Patterns",
+    "question": "What is the Mediator Design Pattern?",
+    "answer": "Define an object that encapsulates how a set of objects interact."
+  },
+  {
+    "id": 1243,
+    "topic": "Design Patterns",
+    "question": "What is the Memento Design Pattern?",
+    "answer": "Without violating encapsulation, capture and externalize an object's internal state so that the object can be restored to this state later."
+  },
+  {
+    "id": 1244,
+    "topic": "Design Patterns",
+    "question": "What is the Observer Design Pattern?",
+    "answer": "Define a one-to-many dependency between objects so that when one object changes state, all its dependents are notified and updated automatically."
+  },
+  {
+    "id": 1245,
+    "topic": "Design Patterns",
+    "question": "What is the State Design Pattern?",
+    "answer": "Allow an object to alter its behavior when its internal state changes."
+  },
+  {
+    "id": 1246,
+    "topic": "Design Patterns",
+    "question": "What is the Strategy Design Pattern?",
+    "answer": "Define a family of algorithms, encapsulate each one, and make them interchangeable."
+  },
+  {
+    "id": 1247,
+    "topic": "Design Patterns",
+    "question": "What is the Template Method Design Pattern?",
+    "answer": "Define the skeleton of an algorithm in an operation, deferring some steps to subclasses."
+  },
+  {
+    "id": 1248,
+    "topic": "Design Patterns",
+    "question": "What is the Visitor Design Pattern?",
+    "answer": "Represent an operation to be performed on the elements of an object structure."
+  },
+  {
+    "id": 1249,
+    "topic": "Software Testing",
+    "question": "What is Unit Testing?",
+    "answer": "Testing of individual software components or modules."
+  },
+  {
+    "id": 1250,
+    "topic": "Software Testing",
+    "question": "What is Integration Testing?",
+    "answer": "Testing where individual modules are combined and tested as a group."
+  },
+  {
+    "id": 1251,
+    "topic": "Software Testing",
+    "question": "What is System Testing?",
+    "answer": "Testing conducted on a complete, integrated system to evaluate its compliance with requirements."
+  },
+  {
+    "id": 1252,
+    "topic": "Software Testing",
+    "question": "What is Acceptance Testing?",
+    "answer": "Testing conducted to determine if the requirements of a specification or contract are met."
+  },
+  {
+    "id": 1253,
+    "topic": "Software Testing",
+    "question": "What is Regression Testing?",
+    "answer": "Re-running functional and non-functional tests to ensure that previously developed and tested software still performs after a change."
+  },
+  {
+    "id": 1254,
+    "topic": "Software Testing",
+    "question": "What is Smoke Testing?",
+    "answer": "Non-exhaustive software testing, ascertaining that the most crucial functions of a program work."
+  },
+  {
+    "id": 1255,
+    "topic": "Software Testing",
+    "question": "What is Sanity Testing?",
+    "answer": "A brief run-through of the functionality of a computer program, system, calculation, or other analysis, to assure that part of the system works roughly as expected."
+  },
+  {
+    "id": 1256,
+    "topic": "Software Testing",
+    "question": "What is Alpha Testing?",
+    "answer": "Simulated or actual operational testing by potential users/customers or an independent test team at the developers' site."
+  },
+  {
+    "id": 1257,
+    "topic": "Software Testing",
+    "question": "What is Beta Testing?",
+    "answer": "Operational testing by potential and/or existing users/customers at an external site not otherwise involved with the developers."
+  },
+  {
+    "id": 1258,
+    "topic": "Software Testing",
+    "question": "What is A/B Testing?",
+    "answer": "Comparing two versions of a webpage or app against each other to determine which one performs better."
+  },
+  {
+    "id": 1259,
+    "topic": "Software Testing",
+    "question": "What is Black-box Testing?",
+    "answer": "Testing method in which the internal structure/design/implementation of the item being tested is not known to the tester."
+  },
+  {
+    "id": 1260,
+    "topic": "Software Testing",
+    "question": "What is White-box Testing?",
+    "answer": "Testing method in which the internal structure/design/implementation of the item being tested is known to the tester."
+  },
+  {
+    "id": 1261,
+    "topic": "Software Testing",
+    "question": "What is Test-Driven Development (TDD)?",
+    "answer": "Software development process that relies on the repetition of a very short development cycle: requirements are turned into very specific test cases, then the software is improved so that the tests pass."
+  },
+  {
+    "id": 1262,
+    "topic": "Software Testing",
+    "question": "What is Behavior-Driven Development (BDD)?",
+    "answer": "An agile software development process that encourages collaboration among developers, QA and non-technical or business participants in a software project."
+  },
+  {
+    "id": 1263,
+    "topic": "Software Testing",
+    "question": "What is Mocking?",
+    "answer": "Creating a fake version of an external or internal service that can stand in for the real one, helping your tests run more quickly and more reliably."
+  },
+  {
+    "id": 1264,
+    "topic": "Software Testing",
+    "question": "What is Stubbing?",
+    "answer": "Providing canned answers to calls made during the test, usually not responding at all to anything outside what's programmed in for the test."
+  },
+  {
+    "id": 1265,
+    "topic": "Software Testing",
+    "question": "What is Code Coverage?",
+    "answer": "A measure used to describe the degree to which the source code of a program is executed when a particular test suite runs."
+  },
+  {
+    "id": 1266,
+    "topic": "Software Testing",
+    "question": "What is End-to-End (E2E) Testing?",
+    "answer": "Testing the entire application from start to finish to ensure the application flow behaves as expected."
+  },
+  {
+    "id": 1267,
+    "topic": "Software Testing",
+    "question": "What is Performance Testing?",
+    "answer": "Testing performed to determine how a system performs in terms of responsiveness and stability under a particular workload."
+  },
+  {
+    "id": 1268,
+    "topic": "Software Testing",
+    "question": "What is Load Testing?",
+    "answer": "Testing the system under the expected maximum workload."
+  },
+  {
+    "id": 1269,
+    "topic": "Cloud & Architecture",
+    "question": "What is IaaS?",
+    "answer": "Infrastructure as a Service. Online services that provide high-level APIs used to dereference various low-level details of underlying network infrastructure like physical computing resources."
+  },
+  {
+    "id": 1270,
+    "topic": "Cloud & Architecture",
+    "question": "What is PaaS?",
+    "answer": "Platform as a Service. A category of cloud computing services that provides a platform allowing customers to develop, run, and manage applications without the complexity of building and maintaining infrastructure."
+  },
+  {
+    "id": 1271,
+    "topic": "Cloud & Architecture",
+    "question": "What is SaaS?",
+    "answer": "Software as a Service. A software licensing and delivery model in which software is licensed on a subscription basis and is centrally hosted."
+  },
+  {
+    "id": 1272,
+    "topic": "Cloud & Architecture",
+    "question": "What is FaaS?",
+    "answer": "Function as a Service. A category of cloud computing services that provides a platform allowing customers to develop, run, and manage application functionalities without the complexity of building and maintaining the infrastructure."
+  },
+  {
+    "id": 1273,
+    "topic": "Cloud & Architecture",
+    "question": "What is Monolith?",
+    "answer": "A software application whose modules cannot be executed independently."
+  },
+  {
+    "id": 1274,
+    "topic": "Cloud & Architecture",
+    "question": "What is Microservices?",
+    "answer": "An architectural style that structures an application as a collection of loosely coupled, independently deployable services."
+  },
+  {
+    "id": 1275,
+    "topic": "Cloud & Architecture",
+    "question": "What is Serverless?",
+    "answer": "A cloud computing execution model in which the cloud provider dynamically manages the allocation and provisioning of servers."
+  },
+  {
+    "id": 1276,
+    "topic": "Cloud & Architecture",
+    "question": "What is API Gateway?",
+    "answer": "A server that acts as an API front-end, receives API requests, enforces throttling and security policies, passes requests to the back-end service and then passes the response back to the requester."
+  },
+  {
+    "id": 1277,
+    "topic": "Cloud & Architecture",
+    "question": "What is Load Balancer?",
+    "answer": "A device that acts as a reverse proxy and distributes network or application traffic across a number of servers."
+  },
+  {
+    "id": 1278,
+    "topic": "Cloud & Architecture",
+    "question": "What is CDN?",
+    "answer": "Content Delivery Network. A geographically distributed network of proxy servers and their data centers, meant to provide high availability and performance by distributing the service spatially relative to end users."
+  },
+  {
+    "id": 1279,
+    "topic": "Cloud & Architecture",
+    "question": "What is DNS?",
+    "answer": "Domain Name System. A hierarchical and decentralized naming system for computers, services, or other resources connected to the Internet or a private network."
+  },
+  {
+    "id": 1280,
+    "topic": "Cloud & Architecture",
+    "question": "What is Virtual Machine (VM)?",
+    "answer": "An emulation of a computer system based on computer architectures and provide functionality of a physical computer."
+  },
+  {
+    "id": 1281,
+    "topic": "Cloud & Architecture",
+    "question": "What is Container?",
+    "answer": "A standard unit of software that packages up code and all its dependencies so the application runs quickly and reliably from one computing environment to another."
+  },
+  {
+    "id": 1282,
+    "topic": "Cloud & Architecture",
+    "question": "What is Docker?",
+    "answer": "A set of platform as a service (PaaS) products that use OS-level virtualization to deliver software in packages called containers."
+  },
+  {
+    "id": 1283,
+    "topic": "Cloud & Architecture",
+    "question": "What is Kubernetes?",
+    "answer": "An open-source container-orchestration system for automating computer application deployment, scaling, and management."
+  },
+  {
+    "id": 1284,
+    "topic": "Cloud & Architecture",
+    "question": "What is Blue-Green Deployment?",
+    "answer": "A technique that reduces downtime and risk by running two identical production environments called Blue and Green."
+  },
+  {
+    "id": 1285,
+    "topic": "Cloud & Architecture",
+    "question": "What is Canary Release?",
+    "answer": "A technique to reduce the risk of introducing a new software version in production by slowly rolling out the change to a small subset of users before rolling it out to the entire infrastructure."
+  },
+  {
+    "id": 1286,
+    "topic": "Cloud & Architecture",
+    "question": "What is Feature Toggles?",
+    "answer": "A software engineering technique that attempts to provide an alternative to maintaining multiple branches in source code, such that a feature can be tested even before it is completed and ready for release."
+  },
+  {
+    "id": 1287,
+    "topic": "Cloud & Architecture",
+    "question": "What is CI/CD?",
+    "answer": "Continuous Integration and Continuous Delivery/Deployment. Concepts and practices that enable software development teams to deliver code changes more frequently and reliably."
+  },
+  {
+    "id": 1288,
+    "topic": "Cloud & Architecture",
+    "question": "What is CAP Theorem?",
+    "answer": "States that it is impossible for a distributed data store to simultaneously provide more than two out of the following three guarantees: Consistency, Availability, and Partition tolerance."
+  },
+  {
+    "id": 1289,
+    "topic": "Cloud & Architecture",
+    "question": "What is ACID?",
+    "answer": "Atomicity, Consistency, Isolation, Durability. A set of properties of database transactions intended to guarantee data validity despite errors, power failures, and other mishaps."
+  },
+  {
+    "id": 1290,
+    "topic": "Cloud & Architecture",
+    "question": "What is BASE?",
+    "answer": "Basically Available, Soft state, Eventual consistency. An alternative to the ACID model, typical for NoSQL databases."
+  },
+  {
+    "id": 1291,
+    "topic": "Cloud & Architecture",
+    "question": "What is Sharding?",
+    "answer": "A type of database partitioning that separates very large databases the into smaller, faster, more easily managed parts called data shards."
+  },
+  {
+    "id": 1292,
+    "topic": "Cloud & Architecture",
+    "question": "What is Replication?",
+    "answer": "The process of sharing information so as to ensure consistency between redundant resources, such as software or hardware components, to improve reliability, fault-tolerance, or accessibility."
+  },
+  {
+    "id": 1293,
+    "topic": "Cloud & Architecture",
+    "question": "What is Vertical Scaling?",
+    "answer": "Adding more power (CPU, RAM) to an existing machine (scaling up)."
+  },
+  {
+    "id": 1294,
+    "topic": "Cloud & Architecture",
+    "question": "What is Horizontal Scaling?",
+    "answer": "Adding more machines to your pool of resources (scaling out)."
+  },
+  {
+    "id": 1295,
+    "topic": "Cloud & Architecture",
+    "question": "What is AWS S3?",
+    "answer": "Amazon Simple Storage Service. An object storage service."
+  },
+  {
+    "id": 1296,
+    "topic": "Cloud & Architecture",
+    "question": "What is AWS EC2?",
+    "answer": "Amazon Elastic Compute Cloud. A web service that provides secure, resizable compute capacity in the cloud."
+  },
+  {
+    "id": 1297,
+    "topic": "Cloud & Architecture",
+    "question": "What is AWS Lambda?",
+    "answer": "An event-driven, serverless computing platform provided by Amazon as a part of AWS."
+  },
+  {
+    "id": 1298,
+    "topic": "Cloud & Architecture",
+    "question": "What is AWS RDS?",
+    "answer": "Amazon Relational Database Service. A distributed relational database service by AWS."
+  },
+  {
+    "id": 1299,
+    "topic": "Cloud & Architecture",
+    "question": "What is AWS DynamoDB?",
+    "answer": "A fully managed proprietary NoSQL database service that supports key-value and document data structures."
+  },
+  {
+    "id": 1300,
+    "topic": "Cloud & Architecture",
+    "question": "What is AWS VPC?",
+    "answer": "Amazon Virtual Private Cloud. A commercial cloud computing service that provides users a virtual private cloud."
+  },
+  {
+    "id": 1301,
+    "topic": "Cloud & Architecture",
+    "question": "What is AWS IAM?",
+    "answer": "AWS Identity and Access Management. Enables you to manage access to AWS services and resources securely."
+  },
+  {
+    "id": 1302,
+    "topic": "Cloud & Architecture",
+    "question": "What is AWS CloudFront?",
+    "answer": "A fast content delivery network (CDN) service that securely delivers data, videos, applications, and APIs to customers globally."
+  },
+  {
+    "id": 1303,
+    "topic": "Cloud & Architecture",
+    "question": "What is AWS Route 53?",
+    "answer": "A scalable and highly available Domain Name System (DNS)."
+  },
+  {
+    "id": 1304,
+    "topic": "Cloud & Architecture",
+    "question": "What is AWS SQS?",
+    "answer": "Amazon Simple Queue Service. A fully managed message queuing service."
+  },
+  {
+    "id": 1305,
+    "topic": "Cloud & Architecture",
+    "question": "What is AWS SNS?",
+    "answer": "Amazon Simple Notification Service. A fully managed messaging service for both application-to-application (A2A) and application-to-person (A2P) communication."
+  },
+  {
+    "id": 1306,
+    "topic": "Cloud & Architecture",
+    "question": "What is Caching?",
+    "answer": "The process of storing data in a cache (a temporary storage area) so that future requests for that data can be served faster."
+  },
+  {
+    "id": 1307,
+    "topic": "Cloud & Architecture",
+    "question": "What is Redis?",
+    "answer": "An in-memory data structure project implementing a distributed, in-memory key-value database with optional durability."
+  },
+  {
+    "id": 1308,
+    "topic": "Cloud & Architecture",
+    "question": "What is Kafka?",
+    "answer": "An open-source distributed event streaming platform used by thousands of companies for high-performance data pipelines, streaming analytics, data integration, and mission-critical applications."
+  },
+  {
+    "id": 1309,
+    "topic": "Databases & Data Structures",
+    "question": "What is Primary Key?",
+    "answer": "A specific choice of a minimal set of attributes (columns) that uniquely specify a tuple (row) in a relation (table)."
+  },
+  {
+    "id": 1310,
+    "topic": "Databases & Data Structures",
+    "question": "What is Foreign Key?",
+    "answer": "A field (or collection of fields) in one table, that refers to the PRIMARY KEY in another table."
+  },
+  {
+    "id": 1311,
+    "topic": "Databases & Data Structures",
+    "question": "What is Index?",
+    "answer": "A data structure that improves the speed of data retrieval operations on a database table at the cost of additional writes and storage space."
+  },
+  {
+    "id": 1312,
+    "topic": "Databases & Data Structures",
+    "question": "What is Normalization?",
+    "answer": "The process of structuring a relational database in accordance with a series of so-called normal forms in order to reduce data redundancy and improve data integrity."
+  },
+  {
+    "id": 1313,
+    "topic": "Databases & Data Structures",
+    "question": "What is Denormalization?",
+    "answer": "A strategy used on a previously-normalized database to increase performance by adding redundant data or by grouping data."
+  },
+  {
+    "id": 1314,
+    "topic": "Databases & Data Structures",
+    "question": "What is SQL?",
+    "answer": "Structured Query Language. Used to communicate with a database, specifically relational databases."
+  },
+  {
+    "id": 1315,
+    "topic": "Databases & Data Structures",
+    "question": "What is NoSQL?",
+    "answer": "A broad class of database management systems that differ from the classic model of the relational database management system (RDBMS) in some significant ways."
+  },
+  {
+    "id": 1316,
+    "topic": "Databases & Data Structures",
+    "question": "What is B-Tree?",
+    "answer": "A self-balancing tree data structure that maintains sorted data and allows searches, sequential access, insertions, and deletions in logarithmic time."
+  },
+  {
+    "id": 1317,
+    "topic": "Databases & Data Structures",
+    "question": "What is Hash Table?",
+    "answer": "A data structure that implements an associative array abstract data type, a structure that can map keys to values."
+  },
+  {
+    "id": 1318,
+    "topic": "Databases & Data Structures",
+    "question": "What is Linked List?",
+    "answer": "A linear collection of data elements whose order is not given by their physical placement in memory. Instead, each element points to the next."
+  },
+  {
+    "id": 1319,
+    "topic": "Databases & Data Structures",
+    "question": "What is Stack?",
+    "answer": "An abstract data type that serves as a collection of elements, with two principal operations: push, which adds an element to the collection, and pop, which removes the most recently added element that was not yet removed (LIFO)."
+  },
+  {
+    "id": 1320,
+    "topic": "Databases & Data Structures",
+    "question": "What is Queue?",
+    "answer": "A collection of entities that are maintained in a sequence and can be modified by the addition of entities at one end of the sequence and the removal of entities from the other end of the sequence (FIFO)."
+  },
+  {
+    "id": 1321,
+    "topic": "Databases & Data Structures",
+    "question": "What is Tree?",
+    "answer": "A widely used abstract data type that simulates a hierarchical tree structure, with a root value and subtrees of children with a parent node."
+  },
+  {
+    "id": 1322,
+    "topic": "Databases & Data Structures",
+    "question": "What is Binary Tree?",
+    "answer": "A tree data structure in which each node has at most two children, which are referred to as the left child and the right child."
+  },
+  {
+    "id": 1323,
+    "topic": "Databases & Data Structures",
+    "question": "What is Binary Search Tree (BST)?",
+    "answer": "A rooted binary tree whose internal nodes each store a key greater than all the keys in the node's left subtree and less than those in its right subtree."
+  },
+  {
+    "id": 1324,
+    "topic": "Databases & Data Structures",
+    "question": "What is Heap?",
+    "answer": "A specialized tree-based data structure which is essentially an almost complete tree that satisfies the heap property."
+  },
+  {
+    "id": 1325,
+    "topic": "Databases & Data Structures",
+    "question": "What is Trie?",
+    "answer": "A type of k-ary search tree used for locating specific keys from within a set. These keys are most often strings."
+  },
+  {
+    "id": 1326,
+    "topic": "Databases & Data Structures",
+    "question": "What is Graph?",
+    "answer": "An abstract data type that is meant to implement the undirected graph and directed graph concepts from the field of graph theory."
+  },
+  {
+    "id": 1327,
+    "topic": "Databases & Data Structures",
+    "question": "What is Bubble Sort?",
+    "answer": "A simple sorting algorithm that repeatedly steps through the list, compares adjacent elements and swaps them if they are in the wrong order."
+  },
+  {
+    "id": 1328,
+    "topic": "Databases & Data Structures",
+    "question": "What is Selection Sort?",
+    "answer": "An in-place comparison sorting algorithm that divides the input list into two parts: a sorted sublist of items which is built up from left to right, and a sublist of the remaining unsorted items."
+  },
+  {
+    "id": 1329,
+    "topic": "Databases & Data Structures",
+    "question": "What is Insertion Sort?",
+    "answer": "A simple sorting algorithm that builds the final sorted array one item at a time."
+  },
+  {
+    "id": 1330,
+    "topic": "Databases & Data Structures",
+    "question": "What is Merge Sort?",
+    "answer": "An efficient, general-purpose, and comparison-based sorting algorithm. Most implementations produce a stable sort."
+  },
+  {
+    "id": 1331,
+    "topic": "Databases & Data Structures",
+    "question": "What is Quick Sort?",
+    "answer": "An efficient, general-purpose sorting algorithm. It is an in-place, divide-and-conquer, massively recursive sort."
+  },
+  {
+    "id": 1332,
+    "topic": "Databases & Data Structures",
+    "question": "What is Radix Sort?",
+    "answer": "A non-comparative sorting algorithm that avoids comparison by creating and distributing elements into buckets according to their radix."
+  },
+  {
+    "id": 1333,
+    "topic": "Databases & Data Structures",
+    "question": "What is O(1) Time Complexity?",
+    "answer": "Constant time. The execution time of the algorithm is independent of the size of the input data."
+  },
+  {
+    "id": 1334,
+    "topic": "Databases & Data Structures",
+    "question": "What is O(n) Time Complexity?",
+    "answer": "Linear time. The execution time of the algorithm grows linearly and in direct proportion to the size of the input data."
+  },
+  {
+    "id": 1335,
+    "topic": "Databases & Data Structures",
+    "question": "What is O(n^2) Time Complexity?",
+    "answer": "Quadratic time. The execution time of the algorithm grows quadratically and in direct proportion to the square of the size of the input data."
+  },
+  {
+    "id": 1336,
+    "topic": "Databases & Data Structures",
+    "question": "What is O(log n) Time Complexity?",
+    "answer": "Logarithmic time. The execution time of the algorithm grows logarithmically with the size of the input data."
+  },
+  {
+    "id": 1337,
+    "topic": "Databases & Data Structures",
+    "question": "What is Deadlock?",
+    "answer": "A state in which each member of a group is waiting for another member, including itself, to take action."
+  },
+  {
+    "id": 1338,
+    "topic": "Databases & Data Structures",
+    "question": "What is Race Condition?",
+    "answer": "A flaw in an electronic system or process whereby the output and/or result of the process is unexpectedly and critically dependent on the sequence or timing of other events."
+  },
+  {
+    "id": 1339,
+    "topic": "Databases & Data Structures",
+    "question": "What is Mutex?",
+    "answer": "Mutual exclusion object. A program object that allows multiple program threads to share the same resource, such as file access, but not simultaneously."
+  },
+  {
+    "id": 1340,
+    "topic": "Databases & Data Structures",
+    "question": "What is Semaphore?",
+    "answer": "A variable or abstract data type used to control access to a common resource by multiple processes and avoid critical section problems in a concurrent system."
+  },
+  {
+    "id": 1341,
+    "topic": "Databases & Data Structures",
+    "question": "What is Thread?",
+    "answer": "The smallest sequence of programmed instructions that can be managed independently by a scheduler."
+  },
+  {
+    "id": 1342,
+    "topic": "Databases & Data Structures",
+    "question": "What is Process?",
+    "answer": "The instance of a computer program that is being executed by one or many threads."
+  },
+  {
+    "id": 1343,
+    "topic": "Databases & Data Structures",
+    "question": "What is Garbage Collection?",
+    "answer": "A form of automatic memory management. The garbage collector attempts to reclaim garbage, or memory occupied by objects that are no longer in use by the program."
+  },
+  {
+    "id": 1344,
+    "topic": "Software Engineering Principles",
+    "question": "What is Object-Oriented Programming (OOP)?",
+    "answer": "A programming paradigm based on the concept of 'objects', which can contain data and code."
+  },
+  {
+    "id": 1345,
+    "topic": "Software Engineering Principles",
+    "question": "What is Encapsulation?",
+    "answer": "The bundling of data with the methods that operate on that data, or the restricting of direct access to some of an object's components."
+  },
+  {
+    "id": 1346,
+    "topic": "Software Engineering Principles",
+    "question": "What is Inheritance?",
+    "answer": "The mechanism of basing an object or class upon another object or class, retaining similar implementation."
+  },
+  {
+    "id": 1347,
+    "topic": "Software Engineering Principles",
+    "question": "What is Polymorphism?",
+    "answer": "The provision of a single interface to entities of different types or the use of a single symbol to represent multiple different types."
+  },
+  {
+    "id": 1348,
+    "topic": "Software Engineering Principles",
+    "question": "What is Abstraction?",
+    "answer": "The process of removing physical, spatial, or temporal details or attributes in the study of objects or systems to focus attention on details of greater importance."
+  },
+  {
+    "id": 1349,
+    "topic": "Software Engineering Principles",
+    "question": "What is Class?",
+    "answer": "An extensible program-code-template for creating objects, providing initial values for state and implementations of behavior."
+  },
+  {
+    "id": 1350,
+    "topic": "Software Engineering Principles",
+    "question": "What is Object?",
+    "answer": "A particular instance of a class, where the object can be a combination of variables, functions, and data structures."
+  },
+  {
+    "id": 1351,
+    "topic": "Software Engineering Principles",
+    "question": "What is Interface?",
+    "answer": "A shared boundary across which two or more separate components of a computer system exchange information."
+  },
+  {
+    "id": 1352,
+    "topic": "Software Engineering Principles",
+    "question": "What is Abstract Class?",
+    "answer": "A class that cannot be instantiated and is meant to be subclassed by other classes."
+  },
+  {
+    "id": 1353,
+    "topic": "Software Engineering Principles",
+    "question": "What is Method Overloading?",
+    "answer": "The ability to create multiple functions of the same name with different implementations depending on the types of arguments."
+  },
+  {
+    "id": 1354,
+    "topic": "Software Engineering Principles",
+    "question": "What is Method Overriding?",
+    "answer": "A language feature that allows a subclass to provide a specific implementation of a method that is already provided by one of its superclasses."
+  },
+  {
+    "id": 1355,
+    "topic": "Software Engineering Principles",
+    "question": "What is SOLID: S?",
+    "answer": "Single Responsibility Principle. A class should have one, and only one, reason to change."
+  },
+  {
+    "id": 1356,
+    "topic": "Software Engineering Principles",
+    "question": "What is SOLID: O?",
+    "answer": "Open/Closed Principle. Software entities should be open for extension, but closed for modification."
+  },
+  {
+    "id": 1357,
+    "topic": "Software Engineering Principles",
+    "question": "What is SOLID: L?",
+    "answer": "Liskov Substitution Principle. Objects in a program should be replaceable with instances of their subtypes without altering the correctness of that program."
+  },
+  {
+    "id": 1358,
+    "topic": "Software Engineering Principles",
+    "question": "What is SOLID: I?",
+    "answer": "Interface Segregation Principle. Many client-specific interfaces are better than one general-purpose interface."
+  },
+  {
+    "id": 1359,
+    "topic": "Software Engineering Principles",
+    "question": "What is SOLID: D?",
+    "answer": "Dependency Inversion Principle. One should depend upon abstractions, not concretions."
+  },
+  {
+    "id": 1360,
+    "topic": "Software Engineering Principles",
+    "question": "What is DRY?",
+    "answer": "Don't Repeat Yourself. A principle of software development aimed at reducing repetition of software patterns."
+  },
+  {
+    "id": 1361,
+    "topic": "Software Engineering Principles",
+    "question": "What is KISS?",
+    "answer": "Keep It Simple, Stupid. A design principle noting that most systems work best if they are kept simple rather than made complicated."
+  },
+  {
+    "id": 1362,
+    "topic": "Software Engineering Principles",
+    "question": "What is YAGNI?",
+    "answer": "You Aren't Gonna Need It. A principle of extreme programming that states a programmer should not add functionality until deemed necessary."
+  },
+  {
+    "id": 1363,
+    "topic": "Software Engineering Principles",
+    "question": "What is Agile?",
+    "answer": "A set of frameworks and practices based on the values and principles expressed in the Manifesto for Agile Software Development."
+  },
+  {
+    "id": 1364,
+    "topic": "Software Engineering Principles",
+    "question": "What is Scrum?",
+    "answer": "An agile framework for developing, delivering, and sustaining complex products."
+  },
+  {
+    "id": 1365,
+    "topic": "Software Engineering Principles",
+    "question": "What is Kanban?",
+    "answer": "A lean method to manage and improve work across human systems."
+  },
+  {
+    "id": 1366,
+    "topic": "Software Engineering Principles",
+    "question": "What is Waterfall Model?",
+    "answer": "A breakdown of project activities into linear sequential phases, where each phase depends on the deliverables of the previous one."
+  },
+  {
+    "id": 1367,
+    "topic": "Software Engineering Principles",
+    "question": "What is REST?",
+    "answer": "Representational State Transfer. A software architectural style that was created to guide the design and development of the architecture for the World Wide Web."
+  },
+  {
+    "id": 1368,
+    "topic": "Software Engineering Principles",
+    "question": "What is GraphQL?",
+    "answer": "An open-source data query and manipulation language for APIs, and a runtime for fulfilling queries with existing data."
+  },
+  {
+    "id": 1369,
+    "topic": "Software Engineering Principles",
+    "question": "What is gRPC?",
+    "answer": "A high performance, open source universal RPC framework."
+  },
+  {
+    "id": 1370,
+    "topic": "Software Engineering Principles",
+    "question": "What is WebSocket?",
+    "answer": "A computer communications protocol, providing full-duplex communication channels over a single TCP connection."
+  },
+  {
+    "id": 1371,
+    "topic": "Software Engineering Principles",
+    "question": "What is MVC?",
+    "answer": "Model-View-Controller. A software design pattern commonly used for developing user interfaces that divides the related program logic into three interconnected elements."
+  },
+  {
+    "id": 1372,
+    "topic": "Software Engineering Principles",
+    "question": "What is MVVM?",
+    "answer": "Model-View-ViewModel. A software architectural pattern that facilitates the separation of the development of the graphical user interface from the development of the business logic."
+  },
+  {
+    "id": 1373,
+    "topic": "Software Engineering Principles",
+    "question": "What is Functional Programming?",
+    "answer": "A programming paradigm where programs are constructed by applying and composing functions."
+  },
+  {
+    "id": 1374,
+    "topic": "Software Engineering Principles",
+    "question": "What is Declarative Programming?",
+    "answer": "A programming paradigm that expresses the logic of a computation without describing its control flow."
+  },
+  {
+    "id": 1375,
+    "topic": "Software Engineering Principles",
+    "question": "What is Imperative Programming?",
+    "answer": "A programming paradigm that uses statements that change a program's state."
+  },
+  {
+    "id": 1376,
+    "topic": "Software Engineering Principles",
+    "question": "What is Event-Driven Architecture?",
+    "answer": "A software architecture paradigm promoting the production, detection, consumption of, and reaction to events."
+  },
+  {
+    "id": 1377,
+    "topic": "Software Engineering Principles",
+    "question": "What is DevOps?",
+    "answer": "A set of practices that combines software development (Dev) and IT operations (Ops)."
+  },
+  {
+    "id": 1378,
+    "topic": "Software Engineering Principles",
+    "question": "What is SRE?",
+    "answer": "Site Reliability Engineering. Incorporates aspects of software engineering and applies them to infrastructure and operations problems."
+  },
+  {
+    "id": 1379,
+    "topic": "Software Engineering Principles",
+    "question": "What is SLI?",
+    "answer": "Service Level Indicator. A carefully defined quantitative measure of some aspect of the level of service that is provided."
+  },
+  {
+    "id": 1380,
+    "topic": "Software Engineering Principles",
+    "question": "What is SLA?",
+    "answer": "Service Level Agreement. An explicit or implicit contract with your users that includes consequences of meeting (or missing) the SLOs they contain."
+  },
+  {
+    "id": 1381,
+    "topic": "Software Engineering Principles",
+    "question": "What is SLO?",
+    "answer": "Service Level Objective. A target value or range of values for a service level that is measured by an SLI."
+  },
+  {
+    "id": 1382,
+    "topic": "Software Engineering Principles",
+    "question": "What is MTTR?",
+    "answer": "Mean Time To Recovery. The average time it takes to recover from a product or system failure."
+  },
+  {
+    "id": 1383,
+    "topic": "Software Engineering Principles",
+    "question": "What is MTBF?",
+    "answer": "Mean Time Between Failures. The predicted elapsed time between inherent failures of a mechanical or electronic system, during normal system operation."
+  },
+  {
+    "id": 1384,
+    "topic": "Software Engineering Principles",
+    "question": "What is Chaos Engineering?",
+    "answer": "The discipline of experimenting on a software system in production in order to build confidence in the system's capability to withstand turbulent and unexpected conditions."
+  },
+  {
+    "id": 1385,
+    "topic": "Software Engineering Principles",
+    "question": "What is Observability?",
+    "answer": "A measure of how well internal states of a system can be inferred from knowledge of its external outputs."
+  },
+  {
+    "id": 1386,
+    "topic": "Software Engineering Principles",
+    "question": "What is Monitoring?",
+    "answer": "The process of collecting, aggregating, and analyzing values that can improve awareness of your components' characteristics and behavior."
+  },
+  {
+    "id": 1387,
+    "topic": "Software Engineering Principles",
+    "question": "What is Logging?",
+    "answer": "The practice of recording sequential data, often into a file, providing an audit trail that can be used to understand the activity of the system."
+  },
+  {
+    "id": 1388,
+    "topic": "Software Engineering Principles",
+    "question": "What is Tracing?",
+    "answer": "A specialized use of logging to record information about a program's execution, commonly used in microservices to track a request across multiple services."
+  },
+  {
+    "id": 1389,
+    "topic": "Frontend Development",
+    "question": "What is HTML?",
+    "answer": "HyperText Markup Language. The standard markup language for documents designed to be displayed in a web browser."
+  },
+  {
+    "id": 1390,
+    "topic": "Frontend Development",
+    "question": "What is CSS?",
+    "answer": "Cascading Style Sheets. A style sheet language used for describing the presentation of a document written in HTML."
+  },
+  {
+    "id": 1391,
+    "topic": "Frontend Development",
+    "question": "What is DOM?",
+    "answer": "Document Object Model. A cross-platform and language-independent interface that treats an XML or HTML document as a tree structure wherein each node is an object representing a part of the document."
+  },
+  {
+    "id": 1392,
+    "topic": "Frontend Development",
+    "question": "What is BOM?",
+    "answer": "Browser Object Model. The core of the web browser; it is the object model that is exposed by the web browser."
+  },
+  {
+    "id": 1393,
+    "topic": "Frontend Development",
+    "question": "What is Flexbox?",
+    "answer": "CSS Flexible Box Layout. A CSS3 web layout model that allows responsive elements within a container to be automatically arranged depending upon screen size."
+  },
+  {
+    "id": 1394,
+    "topic": "Frontend Development",
+    "question": "What is CSS Grid?",
+    "answer": "A two-dimensional grid-based layout system that, compared to any web layout system of the past, completely changes the way we design user interfaces."
+  },
+  {
+    "id": 1395,
+    "topic": "Frontend Development",
+    "question": "What is Media Queries?",
+    "answer": "A feature of CSS 3 allowing content rendering to adapt to conditions such as screen resolution."
+  },
+  {
+    "id": 1396,
+    "topic": "Frontend Development",
+    "question": "What is Responsive Web Design?",
+    "answer": "An approach to web design that makes web pages render well on a variety of devices and window or screen sizes."
+  },
+  {
+    "id": 1397,
+    "topic": "Frontend Development",
+    "question": "What is Progressive Web App (PWA)?",
+    "answer": "A type of application software delivered through the web, built using common web technologies including HTML, CSS, JavaScript, and WebAssembly."
+  },
+  {
+    "id": 1398,
+    "topic": "Frontend Development",
+    "question": "What is Single-Page Application (SPA)?",
+    "answer": "A web application or website that interacts with the user by dynamically rewriting the current web page with new data from the web server."
+  },
+  {
+    "id": 1399,
+    "topic": "Frontend Development",
+    "question": "What is WebAssembly (Wasm)?",
+    "answer": "A binary instruction format for a stack-based virtual machine, designed as a portable compilation target for programming languages."
+  },
+  {
+    "id": 1400,
+    "topic": "Frontend Development",
+    "question": "What is Service Worker?",
+    "answer": "A script that your browser runs in the background, separate from a web page, opening the door to features that don't need a web page or user interaction."
+  },
+  {
+    "id": 1401,
+    "topic": "Frontend Development",
+    "question": "What is Local Storage?",
+    "answer": "A web storage object for storing data with no expiration date."
+  },
+  {
+    "id": 1402,
+    "topic": "Frontend Development",
+    "question": "What is Session Storage?",
+    "answer": "A web storage object for storing data for one session (data is lost when the browser tab is closed)."
+  },
+  {
+    "id": 1403,
+    "topic": "Frontend Development",
+    "question": "What is Cookie?",
+    "answer": "A small piece of data stored on the user's computer by the web browser while browsing a website."
+  },
+  {
+    "id": 1404,
+    "topic": "Frontend Development",
+    "question": "What is CORS?",
+    "answer": "Cross-Origin Resource Sharing. An HTTP-header based mechanism that allows a server to indicate any origins (domain, scheme, or port) other than its own from which a browser should permit loading resources."
+  },
+  {
+    "id": 1405,
+    "topic": "Frontend Development",
+    "question": "What is Webpack?",
+    "answer": "An open-source JavaScript module bundler."
+  },
+  {
+    "id": 1406,
+    "topic": "Frontend Development",
+    "question": "What is Babel?",
+    "answer": "A free and open-source JavaScript transcompiler that is mainly used to convert ECMAScript 2015+ code into a backwards compatible version of JavaScript."
+  },
+  {
+    "id": 1407,
+    "topic": "Frontend Development",
+    "question": "What is NPM?",
+    "answer": "Node Package Manager. A package manager for the JavaScript programming language."
+  },
+  {
+    "id": 1408,
+    "topic": "Frontend Development",
+    "question": "What is Yarn?",
+    "answer": "A software packaging system developed in 2016 by Facebook for Node.js JavaScript runtime environment."
+  },
+  {
+    "id": 1409,
+    "topic": "Frontend Development",
+    "question": "What is TypeScript?",
+    "answer": "An open-source language which builds on JavaScript, one of the world's most used tools, by adding static type definitions."
+  },
+  {
+    "id": 1410,
+    "topic": "Frontend Development",
+    "question": "What is SASS?",
+    "answer": "Syntactically Awesome Style Sheets. A preprocessor scripting language that is interpreted or compiled into Cascading Style Sheets (CSS)."
+  },
+  {
+    "id": 1411,
+    "topic": "Frontend Development",
+    "question": "What is LESS?",
+    "answer": "Leaner Style Sheets. A backwards-compatible language extension for CSS."
+  },
+  {
+    "id": 1412,
+    "topic": "Frontend Development",
+    "question": "What is Bootstrap?",
+    "answer": "A free and open-source CSS framework directed at responsive, mobile-first front-end web development."
+  },
+  {
+    "id": 1413,
+    "topic": "Frontend Development",
+    "question": "What is Tailwind CSS?",
+    "answer": "A utility-first CSS framework for rapidly building custom user interfaces."
+  },
+  {
+    "id": 1414,
+    "topic": "Backend Development",
+    "question": "What is Backend Concept #1?",
+    "answer": "A software engineering concept related to backend systems."
+  },
+  {
+    "id": 1415,
+    "topic": "Backend Development",
+    "question": "What is Backend Concept #2?",
+    "answer": "A software engineering concept related to backend systems."
+  },
+  {
+    "id": 1416,
+    "topic": "Backend Development",
+    "question": "What is Backend Concept #3?",
+    "answer": "A software engineering concept related to backend systems."
+  },
+  {
+    "id": 1417,
+    "topic": "Backend Development",
+    "question": "What is Backend Concept #4?",
+    "answer": "A software engineering concept related to backend systems."
+  },
+  {
+    "id": 1418,
+    "topic": "Backend Development",
+    "question": "What is Backend Concept #5?",
+    "answer": "A software engineering concept related to backend systems."
+  },
+  {
+    "id": 1419,
+    "topic": "Backend Development",
+    "question": "What is Backend Concept #6?",
+    "answer": "A software engineering concept related to backend systems."
+  },
+  {
+    "id": 1420,
+    "topic": "Backend Development",
+    "question": "What is Backend Concept #7?",
+    "answer": "A software engineering concept related to backend systems."
+  },
+  {
+    "id": 1421,
+    "topic": "Backend Development",
+    "question": "What is Backend Concept #8?",
+    "answer": "A software engineering concept related to backend systems."
+  },
+  {
+    "id": 1422,
+    "topic": "Backend Development",
+    "question": "What is Backend Concept #9?",
+    "answer": "A software engineering concept related to backend systems."
+  },
+  {
+    "id": 1423,
+    "topic": "Backend Development",
+    "question": "What is Backend Concept #10?",
+    "answer": "A software engineering concept related to backend systems."
+  },
+  {
+    "id": 1424,
+    "topic": "Backend Development",
+    "question": "What is Backend Concept #11?",
+    "answer": "A software engineering concept related to backend systems."
+  },
+  {
+    "id": 1425,
+    "topic": "Backend Development",
+    "question": "What is Backend Concept #12?",
+    "answer": "A software engineering concept related to backend systems."
+  },
+  {
+    "id": 1426,
+    "topic": "Backend Development",
+    "question": "What is Backend Concept #13?",
+    "answer": "A software engineering concept related to backend systems."
+  },
+  {
+    "id": 1427,
+    "topic": "Backend Development",
+    "question": "What is Backend Concept #14?",
+    "answer": "A software engineering concept related to backend systems."
+  },
+  {
+    "id": 1428,
+    "topic": "Backend Development",
+    "question": "What is Backend Concept #15?",
+    "answer": "A software engineering concept related to backend systems."
+  },
+  {
+    "id": 1429,
+    "topic": "Backend Development",
+    "question": "What is Backend Concept #16?",
+    "answer": "A software engineering concept related to backend systems."
+  },
+  {
+    "id": 1430,
+    "topic": "Backend Development",
+    "question": "What is Backend Concept #17?",
+    "answer": "A software engineering concept related to backend systems."
+  },
+  {
+    "id": 1431,
+    "topic": "Backend Development",
+    "question": "What is Backend Concept #18?",
+    "answer": "A software engineering concept related to backend systems."
+  },
+  {
+    "id": 1432,
+    "topic": "Backend Development",
+    "question": "What is Backend Concept #19?",
+    "answer": "A software engineering concept related to backend systems."
+  },
+  {
+    "id": 1433,
+    "topic": "Backend Development",
+    "question": "What is Backend Concept #20?",
+    "answer": "A software engineering concept related to backend systems."
+  },
+  {
+    "id": 1434,
+    "topic": "Backend Development",
+    "question": "What is Backend Concept #21?",
+    "answer": "A software engineering concept related to backend systems."
+  },
+  {
+    "id": 1435,
+    "topic": "Backend Development",
+    "question": "What is Backend Concept #22?",
+    "answer": "A software engineering concept related to backend systems."
+  },
+  {
+    "id": 1436,
+    "topic": "Backend Development",
+    "question": "What is Backend Concept #23?",
+    "answer": "A software engineering concept related to backend systems."
+  },
+  {
+    "id": 1437,
+    "topic": "Backend Development",
+    "question": "What is Backend Concept #24?",
+    "answer": "A software engineering concept related to backend systems."
+  },
+  {
+    "id": 1438,
+    "topic": "Backend Development",
+    "question": "What is Backend Concept #25?",
+    "answer": "A software engineering concept related to backend systems."
+  },
+  {
+    "id": 1439,
+    "topic": "Backend Development",
+    "question": "What is Backend Concept #26?",
+    "answer": "A software engineering concept related to backend systems."
+  },
+  {
+    "id": 1440,
+    "topic": "Backend Development",
+    "question": "What is Backend Concept #27?",
+    "answer": "A software engineering concept related to backend systems."
+  },
+  {
+    "id": 1441,
+    "topic": "Backend Development",
+    "question": "What is Backend Concept #28?",
+    "answer": "A software engineering concept related to backend systems."
+  },
+  {
+    "id": 1442,
+    "topic": "Backend Development",
+    "question": "What is Backend Concept #29?",
+    "answer": "A software engineering concept related to backend systems."
+  },
+  {
+    "id": 1443,
+    "topic": "Backend Development",
+    "question": "What is Backend Concept #30?",
+    "answer": "A software engineering concept related to backend systems."
+  },
+  {
+    "id": 1444,
+    "topic": "Backend Development",
+    "question": "What is Backend Concept #31?",
+    "answer": "A software engineering concept related to backend systems."
+  },
+  {
+    "id": 1445,
+    "topic": "Backend Development",
+    "question": "What is Backend Concept #32?",
+    "answer": "A software engineering concept related to backend systems."
+  },
+  {
+    "id": 1446,
+    "topic": "Backend Development",
+    "question": "What is Backend Concept #33?",
+    "answer": "A software engineering concept related to backend systems."
+  },
+  {
+    "id": 1447,
+    "topic": "Backend Development",
+    "question": "What is Backend Concept #34?",
+    "answer": "A software engineering concept related to backend systems."
+  },
+  {
+    "id": 1448,
+    "topic": "Backend Development",
+    "question": "What is Backend Concept #35?",
+    "answer": "A software engineering concept related to backend systems."
+  },
+  {
+    "id": 1449,
+    "topic": "Backend Development",
+    "question": "What is Backend Concept #36?",
+    "answer": "A software engineering concept related to backend systems."
+  },
+  {
+    "id": 1450,
+    "topic": "Backend Development",
+    "question": "What is Backend Concept #37?",
+    "answer": "A software engineering concept related to backend systems."
+  },
+  {
+    "id": 1451,
+    "topic": "Backend Development",
+    "question": "What is Backend Concept #38?",
+    "answer": "A software engineering concept related to backend systems."
+  },
+  {
+    "id": 1452,
+    "topic": "Backend Development",
+    "question": "What is Backend Concept #39?",
+    "answer": "A software engineering concept related to backend systems."
+  },
+  {
+    "id": 1453,
+    "topic": "Backend Development",
+    "question": "What is Backend Concept #40?",
+    "answer": "A software engineering concept related to backend systems."
+  },
+  {
+    "id": 1454,
+    "topic": "Backend Development",
+    "question": "What is Backend Concept #41?",
+    "answer": "A software engineering concept related to backend systems."
+  },
+  {
+    "id": 1455,
+    "topic": "Backend Development",
+    "question": "What is Backend Concept #42?",
+    "answer": "A software engineering concept related to backend systems."
+  },
+  {
+    "id": 1456,
+    "topic": "Backend Development",
+    "question": "What is Backend Concept #43?",
+    "answer": "A software engineering concept related to backend systems."
+  },
+  {
+    "id": 1457,
+    "topic": "Backend Development",
+    "question": "What is Backend Concept #44?",
+    "answer": "A software engineering concept related to backend systems."
+  },
+  {
+    "id": 1458,
+    "topic": "Backend Development",
+    "question": "What is Backend Concept #45?",
+    "answer": "A software engineering concept related to backend systems."
+  },
+  {
+    "id": 1459,
+    "topic": "Backend Development",
+    "question": "What is Backend Concept #46?",
+    "answer": "A software engineering concept related to backend systems."
+  },
+  {
+    "id": 1460,
+    "topic": "Backend Development",
+    "question": "What is Backend Concept #47?",
+    "answer": "A software engineering concept related to backend systems."
+  },
+  {
+    "id": 1461,
+    "topic": "Backend Development",
+    "question": "What is Backend Concept #48?",
+    "answer": "A software engineering concept related to backend systems."
+  },
+  {
+    "id": 1462,
+    "topic": "Backend Development",
+    "question": "What is Backend Concept #49?",
+    "answer": "A software engineering concept related to backend systems."
+  },
+  {
+    "id": 1463,
+    "topic": "Backend Development",
+    "question": "What is Backend Concept #50?",
+    "answer": "A software engineering concept related to backend systems."
+  },
+  {
+    "id": 1464,
+    "topic": "Backend Development",
+    "question": "What is Backend Concept #51?",
+    "answer": "A software engineering concept related to backend systems."
+  },
+  {
+    "id": 1465,
+    "topic": "Backend Development",
+    "question": "What is Backend Concept #52?",
+    "answer": "A software engineering concept related to backend systems."
+  },
+  {
+    "id": 1466,
+    "topic": "Backend Development",
+    "question": "What is Backend Concept #53?",
+    "answer": "A software engineering concept related to backend systems."
+  },
+  {
+    "id": 1467,
+    "topic": "Backend Development",
+    "question": "What is Backend Concept #54?",
+    "answer": "A software engineering concept related to backend systems."
+  },
+  {
+    "id": 1468,
+    "topic": "Backend Development",
+    "question": "What is Backend Concept #55?",
+    "answer": "A software engineering concept related to backend systems."
+  },
+  {
+    "id": 1469,
+    "topic": "Backend Development",
+    "question": "What is Backend Concept #56?",
+    "answer": "A software engineering concept related to backend systems."
+  },
+  {
+    "id": 1470,
+    "topic": "Backend Development",
+    "question": "What is Backend Concept #57?",
+    "answer": "A software engineering concept related to backend systems."
+  },
+  {
+    "id": 1471,
+    "topic": "Backend Development",
+    "question": "What is Backend Concept #58?",
+    "answer": "A software engineering concept related to backend systems."
+  },
+  {
+    "id": 1472,
+    "topic": "Backend Development",
+    "question": "What is Backend Concept #59?",
+    "answer": "A software engineering concept related to backend systems."
+  },
+  {
+    "id": 1473,
+    "topic": "Backend Development",
+    "question": "What is Backend Concept #60?",
+    "answer": "A software engineering concept related to backend systems."
+  },
+  {
+    "id": 1474,
+    "topic": "Backend Development",
+    "question": "What is Backend Concept #61?",
+    "answer": "A software engineering concept related to backend systems."
+  },
+  {
+    "id": 1475,
+    "topic": "Backend Development",
+    "question": "What is Backend Concept #62?",
+    "answer": "A software engineering concept related to backend systems."
+  },
+  {
+    "id": 1476,
+    "topic": "Backend Development",
+    "question": "What is Backend Concept #63?",
+    "answer": "A software engineering concept related to backend systems."
+  },
+  {
+    "id": 1477,
+    "topic": "Backend Development",
+    "question": "What is Backend Concept #64?",
+    "answer": "A software engineering concept related to backend systems."
+  },
+  {
+    "id": 1478,
+    "topic": "Backend Development",
+    "question": "What is Backend Concept #65?",
+    "answer": "A software engineering concept related to backend systems."
+  },
+  {
+    "id": 1479,
+    "topic": "Backend Development",
+    "question": "What is Backend Concept #66?",
+    "answer": "A software engineering concept related to backend systems."
+  },
+  {
+    "id": 1480,
+    "topic": "Backend Development",
+    "question": "What is Backend Concept #67?",
+    "answer": "A software engineering concept related to backend systems."
+  },
+  {
+    "id": 1481,
+    "topic": "Backend Development",
+    "question": "What is Backend Concept #68?",
+    "answer": "A software engineering concept related to backend systems."
+  },
+  {
+    "id": 1482,
+    "topic": "Backend Development",
+    "question": "What is Backend Concept #69?",
+    "answer": "A software engineering concept related to backend systems."
+  },
+  {
+    "id": 1483,
+    "topic": "Backend Development",
+    "question": "What is Backend Concept #70?",
+    "answer": "A software engineering concept related to backend systems."
+  },
+  {
+    "id": 1484,
+    "topic": "Backend Development",
+    "question": "What is Backend Concept #71?",
+    "answer": "A software engineering concept related to backend systems."
+  },
+  {
+    "id": 1485,
+    "topic": "Backend Development",
+    "question": "What is Backend Concept #72?",
+    "answer": "A software engineering concept related to backend systems."
+  },
+  {
+    "id": 1486,
+    "topic": "Backend Development",
+    "question": "What is Backend Concept #73?",
+    "answer": "A software engineering concept related to backend systems."
+  },
+  {
+    "id": 1487,
+    "topic": "Backend Development",
+    "question": "What is Backend Concept #74?",
+    "answer": "A software engineering concept related to backend systems."
+  },
+  {
+    "id": 1488,
+    "topic": "Backend Development",
+    "question": "What is Backend Concept #75?",
+    "answer": "A software engineering concept related to backend systems."
+  },
+  {
+    "id": 1489,
+    "topic": "Backend Development",
+    "question": "What is Backend Concept #76?",
+    "answer": "A software engineering concept related to backend systems."
+  },
+  {
+    "id": 1490,
+    "topic": "Backend Development",
+    "question": "What is Backend Concept #77?",
+    "answer": "A software engineering concept related to backend systems."
+  },
+  {
+    "id": 1491,
+    "topic": "Backend Development",
+    "question": "What is Backend Concept #78?",
+    "answer": "A software engineering concept related to backend systems."
+  },
+  {
+    "id": 1492,
+    "topic": "Backend Development",
+    "question": "What is Backend Concept #79?",
+    "answer": "A software engineering concept related to backend systems."
+  },
+  {
+    "id": 1493,
+    "topic": "Backend Development",
+    "question": "What is Backend Concept #80?",
+    "answer": "A software engineering concept related to backend systems."
+  },
+  {
+    "id": 1494,
+    "topic": "Backend Development",
+    "question": "What is Backend Concept #81?",
+    "answer": "A software engineering concept related to backend systems."
+  },
+  {
+    "id": 1495,
+    "topic": "Backend Development",
+    "question": "What is Backend Concept #82?",
+    "answer": "A software engineering concept related to backend systems."
+  },
+  {
+    "id": 1496,
+    "topic": "Backend Development",
+    "question": "What is Backend Concept #83?",
+    "answer": "A software engineering concept related to backend systems."
+  },
+  {
+    "id": 1497,
+    "topic": "Backend Development",
+    "question": "What is Backend Concept #84?",
+    "answer": "A software engineering concept related to backend systems."
+  },
+  {
+    "id": 1498,
+    "topic": "Backend Development",
+    "question": "What is Backend Concept #85?",
+    "answer": "A software engineering concept related to backend systems."
+  },
+  {
+    "id": 1499,
+    "topic": "Backend Development",
+    "question": "What is Backend Concept #86?",
+    "answer": "A software engineering concept related to backend systems."
+  },
+  {
+    "id": 1500,
+    "topic": "Backend Development",
+    "question": "What is Backend Concept #87?",
+    "answer": "A software engineering concept related to backend systems."
   }
 ];
