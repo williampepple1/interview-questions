@@ -6598,5 +6598,305 @@ const questions = [
     "topic": "Frontend / React",
     "question": "Why is React so popular?",
     "answer": "Its declarative nature, component reusability, virtual DOM performance, and the massive ecosystem built around it."
+  },
+  {
+    "id": 1101,
+    "topic": "Git / Version Control",
+    "question": "What is Git?",
+    "answer": "A distributed version control system for tracking changes in source code during software development."
+  },
+  {
+    "id": 1102,
+    "topic": "Git / Version Control",
+    "question": "What is the difference between Git and GitHub?",
+    "answer": "Git is a version control system (a tool); GitHub is a cloud-based hosting service that lets you manage Git repositories."
+  },
+  {
+    "id": 1103,
+    "topic": "Git / Version Control",
+    "question": "What does 'git clone' do?",
+    "answer": "It creates a local copy of a remote repository."
+  },
+  {
+    "id": 1104,
+    "topic": "Git / Version Control",
+    "question": "What is a commit in Git?",
+    "answer": "A snapshot of the repository at a specific point in time."
+  },
+  {
+    "id": 1105,
+    "topic": "Git / Version Control",
+    "question": "What is the staging area (index) in Git?",
+    "answer": "An intermediate area where you format and review commits before completing the commit."
+  },
+  {
+    "id": 1106,
+    "topic": "Git / Version Control",
+    "question": "What does 'git add' do?",
+    "answer": "It adds file contents to the staging area."
+  },
+  {
+    "id": 1107,
+    "topic": "Git / Version Control",
+    "question": "What is the difference between 'git pull' and 'git fetch'?",
+    "answer": "'git fetch' downloads new data from a remote repository, while 'git pull' fetches the data AND merges it into your current branch."
+  },
+  {
+    "id": 1108,
+    "topic": "Git / Version Control",
+    "question": "What is a branch in Git?",
+    "answer": "A movable pointer to one of the commits, allowing you to diverge from the main line of development."
+  },
+  {
+    "id": 1109,
+    "topic": "Git / Version Control",
+    "question": "What does 'git merge' do?",
+    "answer": "It joins two or more development histories (branches) together."
+  },
+  {
+    "id": 1110,
+    "topic": "Git / Version Control",
+    "question": "What is a merge conflict?",
+    "answer": "It occurs when two branches have changed the same part of the same file, and Git cannot automatically determine which version to keep."
+  },
+  {
+    "id": 1111,
+    "topic": "Git / Version Control",
+    "question": "What is 'git rebase'?",
+    "answer": "A process of moving or combining a sequence of commits to a new base commit."
+  },
+  {
+    "id": 1112,
+    "topic": "Git / Version Control",
+    "question": "What is the difference between 'git merge' and 'git rebase'?",
+    "answer": "Merge creates a new commit preserving history; Rebase rewrites history by moving commits to the tip of another branch, creating a linear history."
+  },
+  {
+    "id": 1113,
+    "topic": "Git / Version Control",
+    "question": "What does 'git stash' do?",
+    "answer": "It temporarily shelves (or stashes) changes you've made to your working copy so you can work on something else, and then come back and re-apply them later."
+  },
+  {
+    "id": 1114,
+    "topic": "Git / Version Control",
+    "question": "How do you revert a commit that has already been pushed?",
+    "answer": "Use 'git revert <commit-hash>' to create a new commit that undoes the changes from the previous commit."
+  },
+  {
+    "id": 1115,
+    "topic": "Git / Version Control",
+    "question": "What is 'git cherry-pick'?",
+    "answer": "A command that enables arbitrary Git commits to be picked by reference and appended to the current working HEAD."
+  },
+  {
+    "id": 1116,
+    "topic": "Git / Version Control",
+    "question": "What is 'git bisect'?",
+    "answer": "A utility that uses binary search to find the commit that introduced a bug."
+  },
+  {
+    "id": 1117,
+    "topic": "Git / Version Control",
+    "question": "What does 'git reset --hard' do?",
+    "answer": "It resets the staging area and the working directory to match the specified commit, discarding all uncommitted changes."
+  },
+  {
+    "id": 1118,
+    "topic": "Git / Version Control",
+    "question": "What is the difference between 'git reset --soft', '--mixed', and '--hard'?",
+    "answer": "Soft: keeps changes in staging. Mixed (default): keeps changes in working directory but unstages them. Hard: discards all changes."
+  },
+  {
+    "id": 1119,
+    "topic": "Git / Version Control",
+    "question": "What is a detached HEAD in Git?",
+    "answer": "When you checkout a specific commit instead of a branch. New commits won't belong to any branch."
+  },
+  {
+    "id": 1120,
+    "topic": "Git / Version Control",
+    "question": "How do you change the message of your last commit?",
+    "answer": "Use 'git commit --amend'."
+  },
+  {
+    "id": 1121,
+    "topic": "Git / Version Control",
+    "question": "What is a bare repository in Git?",
+    "answer": "A repository that doesn't contain a working directory (used primarily for sharing/central servers)."
+  },
+  {
+    "id": 1122,
+    "topic": "Git / Version Control",
+    "question": "What is 'git reflog'?",
+    "answer": "A mechanism to record when the tip of branches and other references were updated in the local repository (useful for recovering lost commits)."
+  },
+  {
+    "id": 1123,
+    "topic": "Git / Version Control",
+    "question": "What is a fast-forward merge?",
+    "answer": "A merge where the current branch tip is a direct ancestor of the target branch, so Git just moves the pointer forward without creating a merge commit."
+  },
+  {
+    "id": 1124,
+    "topic": "Git / Version Control",
+    "question": "What is the purpose of '.gitignore'?",
+    "answer": "A text file that tells Git which files or directories to ignore in a project."
+  },
+  {
+    "id": 1125,
+    "topic": "Git / Version Control",
+    "question": "What is 'git blame'?",
+    "answer": "A command that shows what revision and author last modified each line of a file."
+  },
+  {
+    "id": 1126,
+    "topic": "Web Security",
+    "question": "What is OWASP?",
+    "answer": "The Open Web Application Security Project, a non-profit foundation that works to improve the security of software."
+  },
+  {
+    "id": 1127,
+    "topic": "Web Security",
+    "question": "What is SQL Injection (SQLi)?",
+    "answer": "A vulnerability where an attacker can interfere with the queries that an application makes to its database, often allowing them to view, modify, or delete data."
+  },
+  {
+    "id": 1128,
+    "topic": "Web Security",
+    "question": "How do you prevent SQL Injection?",
+    "answer": "By using parameterized queries (Prepared Statements), ORMs, and proper input validation/escaping."
+  },
+  {
+    "id": 1129,
+    "topic": "Web Security",
+    "question": "What is Cross-Site Scripting (XSS)?",
+    "answer": "A vulnerability where an attacker injects malicious client-side scripts into web pages viewed by other users."
+  },
+  {
+    "id": 1130,
+    "topic": "Web Security",
+    "question": "What are the types of XSS?",
+    "answer": "Stored (Persistent), Reflected (Non-Persistent), and DOM-based XSS."
+  },
+  {
+    "id": 1131,
+    "topic": "Web Security",
+    "question": "How do you prevent XSS?",
+    "answer": "By escaping/encoding user input on rendering, validating input, and using Content Security Policy (CSP) headers."
+  },
+  {
+    "id": 1132,
+    "topic": "Web Security",
+    "question": "What is Cross-Site Request Forgery (CSRF)?",
+    "answer": "An attack that forces an end user to execute unwanted actions on a web application in which they're currently authenticated."
+  },
+  {
+    "id": 1133,
+    "topic": "Web Security",
+    "question": "How do you prevent CSRF?",
+    "answer": "Using anti-CSRF tokens (Synchronizer Token Pattern), SameSite cookie attributes, and checking the Referer/Origin headers."
+  },
+  {
+    "id": 1134,
+    "topic": "Web Security",
+    "question": "What is a Man-in-the-Middle (MitM) attack?",
+    "answer": "An attack where the attacker secretly relays and possibly alters the communications between two parties who believe they are directly communicating."
+  },
+  {
+    "id": 1135,
+    "topic": "Web Security",
+    "question": "How do you prevent MitM attacks on the web?",
+    "answer": "By using HTTPS (TLS/SSL) to encrypt communication and implementing HSTS (HTTP Strict Transport Security)."
+  },
+  {
+    "id": 1136,
+    "topic": "Web Security",
+    "question": "What is CORS (Cross-Origin Resource Sharing)?",
+    "answer": "A mechanism that uses additional HTTP headers to tell browsers to give a web application running at one origin, access to selected resources from a different origin."
+  },
+  {
+    "id": 1137,
+    "topic": "Web Security",
+    "question": "Is CORS a security feature to protect the server?",
+    "answer": "No, CORS is a security feature enforced by the BROWSER to protect the user. It relaxes the Same-Origin Policy."
+  },
+  {
+    "id": 1138,
+    "topic": "Web Security",
+    "question": "What is the Same-Origin Policy (SOP)?",
+    "answer": "A critical security concept that restricts how a document or script loaded from one origin can interact with a resource from another origin."
+  },
+  {
+    "id": 1139,
+    "topic": "Web Security",
+    "question": "What is clickjacking?",
+    "answer": "A malicious technique of tricking a user into clicking on something different from what the user perceives, often using transparent iframes."
+  },
+  {
+    "id": 1140,
+    "topic": "Web Security",
+    "question": "How do you prevent clickjacking?",
+    "answer": "By using the X-Frame-Options HTTP header or CSP frame-ancestors directive to prevent the site from being rendered inside an iframe."
+  },
+  {
+    "id": 1141,
+    "topic": "Web Security",
+    "question": "What is an Insecure Direct Object Reference (IDOR)?",
+    "answer": "An access control vulnerability that arises when an application provides direct access to objects based on user-supplied input (like changing an ID in the URL to view someone else's account)."
+  },
+  {
+    "id": 1142,
+    "topic": "Web Security",
+    "question": "How do you prevent IDOR?",
+    "answer": "By implementing robust access control checks to ensure the currently authenticated user is authorized to access the requested object."
+  },
+  {
+    "id": 1143,
+    "topic": "Web Security",
+    "question": "What is Directory Traversal (Path Traversal)?",
+    "answer": "An exploit that allows an attacker to access files and directories that are stored outside the web root folder (e.g., using '../')."
+  },
+  {
+    "id": 1144,
+    "topic": "Web Security",
+    "question": "What is the purpose of hashing passwords?",
+    "answer": "To ensure that if the database is compromised, the plaintext passwords are not immediately visible. Hashing is a one-way mathematical function."
+  },
+  {
+    "id": 1145,
+    "topic": "Web Security",
+    "question": "Why should you use salt when hashing passwords?",
+    "answer": "Salt (random data added before hashing) defends against rainbow table attacks and ensures identical passwords have different hashes."
+  },
+  {
+    "id": 1146,
+    "topic": "Web Security",
+    "question": "What is a popular algorithm for password hashing?",
+    "answer": "Bcrypt, Argon2, or PBKDF2."
+  },
+  {
+    "id": 1147,
+    "topic": "Web Security",
+    "question": "What is a Denial of Service (DoS) attack?",
+    "answer": "A cyber-attack in which the perpetrator seeks to make a machine or network resource unavailable to its intended users by temporarily or indefinitely disrupting services."
+  },
+  {
+    "id": 1148,
+    "topic": "Web Security",
+    "question": "What is Content Security Policy (CSP)?",
+    "answer": "An added layer of security that helps to detect and mitigate certain types of attacks, including XSS and data injection attacks, by defining approved sources of content."
+  },
+  {
+    "id": 1149,
+    "topic": "Web Security",
+    "question": "What is a JWT (JSON Web Token)?",
+    "answer": "An open standard for securely transmitting information between parties as a JSON object, often used for authorization."
+  },
+  {
+    "id": 1150,
+    "topic": "Web Security",
+    "question": "What is the danger of storing JWTs in Local Storage?",
+    "answer": "They are susceptible to XSS attacks. If an attacker injects JavaScript, they can easily read Local Storage and steal the token. HttpOnly cookies are a more secure alternative."
   }
 ];
