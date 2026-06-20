@@ -8998,5 +8998,3005 @@ const questions = [
     "topic": "Backend Development",
     "question": "What is Backend Concept #87?",
     "answer": "A software engineering concept related to backend systems."
+  },
+  {
+    "id": 1501,
+    "topic": "JavaScript",
+    "question": "What is Hoisting?",
+    "answer": "A JavaScript mechanism where variables and function declarations are moved to the top of their scope before code execution."
+  },
+  {
+    "id": 1502,
+    "topic": "JavaScript",
+    "question": "What is Closure?",
+    "answer": "A function bundled together (enclosed) with references to its surrounding state (the lexical environment)."
+  },
+  {
+    "id": 1503,
+    "topic": "JavaScript",
+    "question": "What is Promise?",
+    "answer": "An object representing the eventual completion or failure of an asynchronous operation."
+  },
+  {
+    "id": 1504,
+    "topic": "JavaScript",
+    "question": "What is Async/Await?",
+    "answer": "Syntactic sugar on top of Promises, making asynchronous code look and behave a little more like synchronous code."
+  },
+  {
+    "id": 1505,
+    "topic": "JavaScript",
+    "question": "What is Event Delegation?",
+    "answer": "A technique involving adding a single event listener to a parent element rather than multiple listeners to individual child elements."
+  },
+  {
+    "id": 1506,
+    "topic": "JavaScript",
+    "question": "What is Event Bubbling?",
+    "answer": "The process where an event starts from the deepest target element and bubbles up to its parents."
+  },
+  {
+    "id": 1507,
+    "topic": "JavaScript",
+    "question": "What is Event Capturing?",
+    "answer": "The process where an event starts from the top element (window) and propagates down to the target element."
+  },
+  {
+    "id": 1508,
+    "topic": "JavaScript",
+    "question": "What is Strict Mode?",
+    "answer": "A feature in JavaScript introduced in ES5 that allows you to place a program, or a function, in a 'strict' operating context."
+  },
+  {
+    "id": 1509,
+    "topic": "JavaScript",
+    "question": "What is NaN?",
+    "answer": "Stands for 'Not-a-Number'. A special value representing an unrepresentable value, resulting from an invalid math operation."
+  },
+  {
+    "id": 1510,
+    "topic": "JavaScript",
+    "question": "What is Null vs Undefined?",
+    "answer": "Undefined means a variable has been declared but has not yet been assigned a value. Null is an assignment value representing no value."
+  },
+  {
+    "id": 1511,
+    "topic": "JavaScript",
+    "question": "What is let vs var?",
+    "answer": "'let' is block-scoped, while 'var' is function-scoped. 'let' does not create a property on the global object."
+  },
+  {
+    "id": 1512,
+    "topic": "JavaScript",
+    "question": "What is const?",
+    "answer": "A block-scoped declaration for a variable whose reference cannot be reassigned."
+  },
+  {
+    "id": 1513,
+    "topic": "JavaScript",
+    "question": "What is Arrow Functions?",
+    "answer": "A compact alternative to a traditional function expression, which also does not have its own bindings to 'this', 'arguments', 'super', or 'new.target'."
+  },
+  {
+    "id": 1514,
+    "topic": "JavaScript",
+    "question": "What is Template Literals?",
+    "answer": "String literals allowing embedded expressions, declared with backticks (`)."
+  },
+  {
+    "id": 1515,
+    "topic": "JavaScript",
+    "question": "What is Destructuring Assignment?",
+    "answer": "A syntax that makes it possible to unpack values from arrays, or properties from objects, into distinct variables."
+  },
+  {
+    "id": 1516,
+    "topic": "JavaScript",
+    "question": "What is Spread Syntax?",
+    "answer": "Allows an iterable such as an array expression or string to be expanded in places where zero or more arguments or elements are expected."
+  },
+  {
+    "id": 1517,
+    "topic": "JavaScript",
+    "question": "What is Rest Parameters?",
+    "answer": "A syntax that allows us to represent an indefinite number of arguments as an array."
+  },
+  {
+    "id": 1518,
+    "topic": "JavaScript",
+    "question": "What is Map (Data Structure)?",
+    "answer": "An object that holds key-value pairs and remembers the original insertion order of the keys."
+  },
+  {
+    "id": 1519,
+    "topic": "JavaScript",
+    "question": "What is Set (Data Structure)?",
+    "answer": "An object that lets you store unique values of any type."
+  },
+  {
+    "id": 1520,
+    "topic": "JavaScript",
+    "question": "What is WeakMap?",
+    "answer": "A collection of key/value pairs in which the keys are weakly referenced. The keys must be objects and the values can be arbitrary values."
+  },
+  {
+    "id": 1521,
+    "topic": "JavaScript",
+    "question": "What is Generators?",
+    "answer": "Functions that can be exited and later re-entered. Their context (variable bindings) will be saved across re-entrances."
+  },
+  {
+    "id": 1522,
+    "topic": "JavaScript",
+    "question": "What is IIFE?",
+    "answer": "Immediately Invoked Function Expression. A JavaScript function that runs as soon as it is defined."
+  },
+  {
+    "id": 1523,
+    "topic": "JavaScript",
+    "question": "What is Currying?",
+    "answer": "The process of taking a function with multiple arguments and turning it into a sequence of functions each with only a single argument."
+  },
+  {
+    "id": 1524,
+    "topic": "JavaScript",
+    "question": "What is Memoization?",
+    "answer": "An optimization technique used primarily to speed up computer programs by storing the results of expensive function calls."
+  },
+  {
+    "id": 1525,
+    "topic": "JavaScript",
+    "question": "What is Call, Apply, Bind?",
+    "answer": "Methods used to set the 'this' context of a function. 'call' and 'apply' invoke the function immediately, while 'bind' returns a new function."
+  },
+  {
+    "id": 1526,
+    "topic": "JavaScript",
+    "question": "What is Event Loop?",
+    "answer": "The secret behind JavaScript's asynchronous programming. It executes tasks from the callback queue only when the call stack is empty."
+  },
+  {
+    "id": 1527,
+    "topic": "JavaScript",
+    "question": "What is Callback Queue?",
+    "answer": "A queue that stores callback functions waiting to be executed by the Event Loop."
+  },
+  {
+    "id": 1528,
+    "topic": "JavaScript",
+    "question": "What is Microtask Queue?",
+    "answer": "A queue with higher priority than the callback (macrotask) queue, usually for Promise callbacks (.then/catch/finally)."
+  },
+  {
+    "id": 1529,
+    "topic": "JavaScript",
+    "question": "What is Debouncing?",
+    "answer": "A programming practice used to ensure that time-consuming tasks do not fire so often (e.g., resizing a window, typing in a search box)."
+  },
+  {
+    "id": 1530,
+    "topic": "JavaScript",
+    "question": "What is Throttling?",
+    "answer": "A technique in which, no matter how many times the user fires the event, the attached function will be executed only once in a given time interval."
+  },
+  {
+    "id": 1531,
+    "topic": "Python",
+    "question": "What is GIL (Global Interpreter Lock)?",
+    "answer": "A mutex that protects access to Python objects, preventing multiple threads from executing Python bytecodes at once in CPython."
+  },
+  {
+    "id": 1532,
+    "topic": "Python",
+    "question": "What is List Comprehension?",
+    "answer": "A concise way to create lists in Python, e.g., [x**2 for x in range(10)]."
+  },
+  {
+    "id": 1533,
+    "topic": "Python",
+    "question": "What is Tuple vs List?",
+    "answer": "Lists are mutable and defined by square brackets []. Tuples are immutable and defined by parentheses ()."
+  },
+  {
+    "id": 1534,
+    "topic": "Python",
+    "question": "What is Dictionary?",
+    "answer": "A built-in data type in Python consisting of a collection of key-value pairs."
+  },
+  {
+    "id": 1535,
+    "topic": "Python",
+    "question": "What is Decorators?",
+    "answer": "A design pattern in Python that allows a user to add new functionality to an existing object without modifying its structure."
+  },
+  {
+    "id": 1536,
+    "topic": "Python",
+    "question": "What is Generators (Python)?",
+    "answer": "A function that returns an object (iterator) which we can iterate over (one value at a time), using the 'yield' keyword."
+  },
+  {
+    "id": 1537,
+    "topic": "Python",
+    "question": "What is Yield?",
+    "answer": "A keyword used to return from a function without destroying the states of its local variable."
+  },
+  {
+    "id": 1538,
+    "topic": "Python",
+    "question": "What is __init__?",
+    "answer": "A reserved method in Python classes, known as a constructor, used to initialize the object's attributes."
+  },
+  {
+    "id": 1539,
+    "topic": "Python",
+    "question": "What is __str__ vs __repr__?",
+    "answer": "__str__ is for readable string representations for end-users. __repr__ is for unambiguous representations for developers."
+  },
+  {
+    "id": 1540,
+    "topic": "Python",
+    "question": "What is Lambda Function?",
+    "answer": "A small anonymous function defined with the 'lambda' keyword."
+  },
+  {
+    "id": 1541,
+    "topic": "Python",
+    "question": "What is Map Function?",
+    "answer": "A built-in function that applies a given function to each item of an iterable and returns a list of the results."
+  },
+  {
+    "id": 1542,
+    "topic": "Python",
+    "question": "What is Filter Function?",
+    "answer": "A built-in function that constructs an iterator from elements of an iterable for which a function returns true."
+  },
+  {
+    "id": 1543,
+    "topic": "Python",
+    "question": "What is Reduce Function?",
+    "answer": "A function (in functools) that applies a rolling computation to sequential pairs of values in a list."
+  },
+  {
+    "id": 1544,
+    "topic": "Python",
+    "question": "What is self?",
+    "answer": "Represents the instance of the class in Python methods."
+  },
+  {
+    "id": 1545,
+    "topic": "Python",
+    "question": "What is cls?",
+    "answer": "Represents the class itself in Python class methods (decorated with @classmethod)."
+  },
+  {
+    "id": 1546,
+    "topic": "Python",
+    "question": "What is Static Method?",
+    "answer": "A method bound to the class and not the object of the class (decorated with @staticmethod), taking neither self nor cls as the first argument."
+  },
+  {
+    "id": 1547,
+    "topic": "Python",
+    "question": "What is Duck Typing?",
+    "answer": "A concept related to dynamic typing, where the type or the class of an object is less important than the methods it defines."
+  },
+  {
+    "id": 1548,
+    "topic": "Python",
+    "question": "What is Monkey Patching?",
+    "answer": "Dynamic modifications of a class or module at runtime."
+  },
+  {
+    "id": 1549,
+    "topic": "Python",
+    "question": "What is args and kwargs?",
+    "answer": "*args passes a variable number of non-keyworded arguments, **kwargs passes a variable number of keyworded arguments."
+  },
+  {
+    "id": 1550,
+    "topic": "Python",
+    "question": "What is Virtual Environment?",
+    "answer": "A self-contained directory tree that contains a Python installation for a particular version of Python, plus a number of additional packages."
+  },
+  {
+    "id": 1551,
+    "topic": "Python",
+    "question": "What is pip?",
+    "answer": "The package installer for Python."
+  },
+  {
+    "id": 1552,
+    "topic": "Python",
+    "question": "What is PEP 8?",
+    "answer": "The Style Guide for Python Code."
+  },
+  {
+    "id": 1553,
+    "topic": "Python",
+    "question": "What is Context Managers?",
+    "answer": "Allows you to allocate and release resources precisely when you want to, usually implemented using the 'with' statement."
+  },
+  {
+    "id": 1554,
+    "topic": "Python",
+    "question": "What is Slicing?",
+    "answer": "A feature that enables accessing parts of sequences like strings, tuples, and lists. e.g., a[start:stop:step]."
+  },
+  {
+    "id": 1555,
+    "topic": "Python",
+    "question": "What is Pickling?",
+    "answer": "The process whereby a Python object hierarchy is converted into a byte stream (serialization)."
+  },
+  {
+    "id": 1556,
+    "topic": "Python",
+    "question": "What is Unpickling?",
+    "answer": "The inverse operation of pickling, where a byte stream is converted back into an object hierarchy."
+  },
+  {
+    "id": 1557,
+    "topic": "Python",
+    "question": "What is Deep Copy vs Shallow Copy?",
+    "answer": "A shallow copy creates a new object and populates it with references to child objects. A deep copy recursively copies all child objects."
+  },
+  {
+    "id": 1558,
+    "topic": "Python",
+    "question": "What is Docstrings?",
+    "answer": "String literals that appear right after the definition of a function, method, class, or module to document it."
+  },
+  {
+    "id": 1559,
+    "topic": "Python",
+    "question": "What is Pass Statement?",
+    "answer": "A null operation; nothing happens when it executes. Useful as a placeholder."
+  },
+  {
+    "id": 1560,
+    "topic": "Python",
+    "question": "What is Walrus Operator (:=)?",
+    "answer": "Introduced in Python 3.8, it assigns values to variables as part of a larger expression."
+  },
+  {
+    "id": 1561,
+    "topic": "SQL & Databases",
+    "question": "What is INNER JOIN?",
+    "answer": "Returns records that have matching values in both tables."
+  },
+  {
+    "id": 1562,
+    "topic": "SQL & Databases",
+    "question": "What is LEFT JOIN?",
+    "answer": "Returns all records from the left table, and the matched records from the right table."
+  },
+  {
+    "id": 1563,
+    "topic": "SQL & Databases",
+    "question": "What is RIGHT JOIN?",
+    "answer": "Returns all records from the right table, and the matched records from the left table."
+  },
+  {
+    "id": 1564,
+    "topic": "SQL & Databases",
+    "question": "What is FULL OUTER JOIN?",
+    "answer": "Returns all records when there is a match in either left or right table."
+  },
+  {
+    "id": 1565,
+    "topic": "SQL & Databases",
+    "question": "What is CROSS JOIN?",
+    "answer": "Returns the Cartesian product of the sets of records from the two joined tables."
+  },
+  {
+    "id": 1566,
+    "topic": "SQL & Databases",
+    "question": "What is SELF JOIN?",
+    "answer": "A regular join, but the table is joined with itself."
+  },
+  {
+    "id": 1567,
+    "topic": "SQL & Databases",
+    "question": "What is UNION?",
+    "answer": "An operator used to combine the result-set of two or more SELECT statements (removes duplicates)."
+  },
+  {
+    "id": 1568,
+    "topic": "SQL & Databases",
+    "question": "What is UNION ALL?",
+    "answer": "An operator used to combine the result-set of two or more SELECT statements (keeps duplicates)."
+  },
+  {
+    "id": 1569,
+    "topic": "SQL & Databases",
+    "question": "What is GROUP BY?",
+    "answer": "Groups rows that have the same values into summary rows, often used with aggregate functions."
+  },
+  {
+    "id": 1570,
+    "topic": "SQL & Databases",
+    "question": "What is HAVING?",
+    "answer": "A clause added to SQL because the WHERE keyword cannot be used with aggregate functions."
+  },
+  {
+    "id": 1571,
+    "topic": "SQL & Databases",
+    "question": "What is Subquery?",
+    "answer": "A query nested inside another query."
+  },
+  {
+    "id": 1572,
+    "topic": "SQL & Databases",
+    "question": "What is CTE (Common Table Expression)?",
+    "answer": "A temporary named result set that you can reference within a SELECT, INSERT, UPDATE, or DELETE statement."
+  },
+  {
+    "id": 1573,
+    "topic": "SQL & Databases",
+    "question": "What is Window Functions?",
+    "answer": "Performs a calculation across a set of table rows that are somehow related to the current row."
+  },
+  {
+    "id": 1574,
+    "topic": "SQL & Databases",
+    "question": "What is Trigger?",
+    "answer": "A stored program executed automatically to respond to a specific event (e.g., insert, update, delete) on a table."
+  },
+  {
+    "id": 1575,
+    "topic": "SQL & Databases",
+    "question": "What is Stored Procedure?",
+    "answer": "A prepared SQL code that you can save, so the code can be reused over and over again."
+  },
+  {
+    "id": 1576,
+    "topic": "SQL & Databases",
+    "question": "What is View?",
+    "answer": "A virtual table based on the result-set of an SQL statement."
+  },
+  {
+    "id": 1577,
+    "topic": "SQL & Databases",
+    "question": "What is Materialized View?",
+    "answer": "A database object that contains the results of a query, caching the data for faster access rather than computing it on the fly."
+  },
+  {
+    "id": 1578,
+    "topic": "SQL & Databases",
+    "question": "What is Primary Key Constraint?",
+    "answer": "Uniquely identifies each record in a table. Cannot contain NULL values."
+  },
+  {
+    "id": 1579,
+    "topic": "SQL & Databases",
+    "question": "What is Foreign Key Constraint?",
+    "answer": "Prevents actions that would destroy links between tables. Points to a Primary Key in another table."
+  },
+  {
+    "id": 1580,
+    "topic": "SQL & Databases",
+    "question": "What is Unique Constraint?",
+    "answer": "Ensures that all values in a column are different."
+  },
+  {
+    "id": 1581,
+    "topic": "SQL & Databases",
+    "question": "What is Check Constraint?",
+    "answer": "Ensures that the values in a column satisfy a specific condition."
+  },
+  {
+    "id": 1582,
+    "topic": "SQL & Databases",
+    "question": "What is Default Constraint?",
+    "answer": "Sets a default value for a column if no value is specified."
+  },
+  {
+    "id": 1583,
+    "topic": "SQL & Databases",
+    "question": "What is ACID: Isolation Levels?",
+    "answer": "Read Uncommitted, Read Committed, Repeatable Read, Serializable."
+  },
+  {
+    "id": 1584,
+    "topic": "SQL & Databases",
+    "question": "What is Deadlock (Database)?",
+    "answer": "Occurs when two or more transactions indefinitely wait for one another to release locks."
+  },
+  {
+    "id": 1585,
+    "topic": "SQL & Databases",
+    "question": "What is Dirty Read?",
+    "answer": "Occurs when a transaction reads data that has been written by another uncommitted transaction."
+  },
+  {
+    "id": 1586,
+    "topic": "Cybersecurity & Cryptography",
+    "question": "What is Symmetric Encryption?",
+    "answer": "A type of encryption where the same key is used for both encrypting and decrypting data."
+  },
+  {
+    "id": 1587,
+    "topic": "Cybersecurity & Cryptography",
+    "question": "What is Asymmetric Encryption?",
+    "answer": "A type of encryption that uses a pair of keys: a public key to encrypt and a private key to decrypt."
+  },
+  {
+    "id": 1588,
+    "topic": "Cybersecurity & Cryptography",
+    "question": "What is RSA?",
+    "answer": "Rivest-Shamir-Adleman. A public-key cryptosystem widely used for secure data transmission."
+  },
+  {
+    "id": 1589,
+    "topic": "Cybersecurity & Cryptography",
+    "question": "What is AES?",
+    "answer": "Advanced Encryption Standard. A symmetric block cipher chosen by the U.S. government to protect classified information."
+  },
+  {
+    "id": 1590,
+    "topic": "Cybersecurity & Cryptography",
+    "question": "What is Hash Function?",
+    "answer": "A one-way mathematical function that maps data of any size to a fixed-size string of bytes."
+  },
+  {
+    "id": 1591,
+    "topic": "Cybersecurity & Cryptography",
+    "question": "What is Salt (Cryptography)?",
+    "answer": "Random data that is used as an additional input to a one-way function that hashes data, passwords or passphrases."
+  },
+  {
+    "id": 1592,
+    "topic": "Cybersecurity & Cryptography",
+    "question": "What is Digital Signature?",
+    "answer": "A mathematical scheme for verifying the authenticity of digital messages or documents."
+  },
+  {
+    "id": 1593,
+    "topic": "Cybersecurity & Cryptography",
+    "question": "What is Public Key Infrastructure (PKI)?",
+    "answer": "A set of roles, policies, and procedures needed to create, manage, distribute, use, store, and revoke digital certificates."
+  },
+  {
+    "id": 1594,
+    "topic": "Cybersecurity & Cryptography",
+    "question": "What is TLS/SSL?",
+    "answer": "Transport Layer Security / Secure Sockets Layer. Cryptographic protocols designed to provide communications security over a computer network."
+  },
+  {
+    "id": 1595,
+    "topic": "Cybersecurity & Cryptography",
+    "question": "What is Phishing?",
+    "answer": "The fraudulent attempt to obtain sensitive information by disguising oneself as a trustworthy entity in an electronic communication."
+  },
+  {
+    "id": 1596,
+    "topic": "Cybersecurity & Cryptography",
+    "question": "What is Spear Phishing?",
+    "answer": "An email or electronic communications scam targeted towards a specific individual, organization or business."
+  },
+  {
+    "id": 1597,
+    "topic": "Cybersecurity & Cryptography",
+    "question": "What is Ransomware?",
+    "answer": "A type of malware from cryptovirology that threatens to publish the victim's data or perpetually block access to it unless a ransom is paid."
+  },
+  {
+    "id": 1598,
+    "topic": "Cybersecurity & Cryptography",
+    "question": "What is Zero-Day Exploit?",
+    "answer": "A cyber attack that occurs on the same day a weakness is discovered in software, before the developer has released a patch."
+  },
+  {
+    "id": 1599,
+    "topic": "Cybersecurity & Cryptography",
+    "question": "What is Penetration Testing?",
+    "answer": "An authorized simulated cyberattack on a computer system, performed to evaluate the security of the system."
+  },
+  {
+    "id": 1600,
+    "topic": "Cybersecurity & Cryptography",
+    "question": "What is Firewall?",
+    "answer": "A network security system that monitors and controls incoming and outgoing network traffic based on predetermined security rules."
+  },
+  {
+    "id": 1601,
+    "topic": "Cybersecurity & Cryptography",
+    "question": "What is VPN?",
+    "answer": "Virtual Private Network. Extends a private network across a public network, enabling users to send and receive data across shared or public networks."
+  },
+  {
+    "id": 1602,
+    "topic": "Cybersecurity & Cryptography",
+    "question": "What is Two-Factor Authentication (2FA)?",
+    "answer": "A security system that requires two separate, distinct forms of identification in order to access something."
+  },
+  {
+    "id": 1603,
+    "topic": "Cybersecurity & Cryptography",
+    "question": "What is Principle of Least Privilege?",
+    "answer": "The practice of limiting access rights for users to the bare minimum permissions they need to perform their work."
+  },
+  {
+    "id": 1604,
+    "topic": "Cybersecurity & Cryptography",
+    "question": "What is Buffer Overflow?",
+    "answer": "An anomaly where a program, while writing data to a buffer, overruns the buffer's boundary and overwrites adjacent memory locations."
+  },
+  {
+    "id": 1605,
+    "topic": "Cybersecurity & Cryptography",
+    "question": "What is SQL Injection (SQLi)?",
+    "answer": "A code injection technique that might destroy your database by executing malicious SQL statements."
+  },
+  {
+    "id": 1606,
+    "topic": "Cybersecurity & Cryptography",
+    "question": "What is XSS (Cross-Site Scripting)?",
+    "answer": "A vulnerability in which an attacker injects malicious executable scripts into the code of a trusted application or website."
+  },
+  {
+    "id": 1607,
+    "topic": "Cybersecurity & Cryptography",
+    "question": "What is CSRF (Cross-Site Request Forgery)?",
+    "answer": "An attack that forces authenticated users to submit a request to a Web application against which they are currently authenticated."
+  },
+  {
+    "id": 1608,
+    "topic": "Cybersecurity & Cryptography",
+    "question": "What is SSRF (Server-Side Request Forgery)?",
+    "answer": "An attack wherein an attacker is able to coerce a server-side application to make HTTP requests to an arbitrary domain of the attacker's choosing."
+  },
+  {
+    "id": 1609,
+    "topic": "Cybersecurity & Cryptography",
+    "question": "What is Social Engineering?",
+    "answer": "The psychological manipulation of people into performing actions or divulging confidential information."
+  },
+  {
+    "id": 1610,
+    "topic": "Cybersecurity & Cryptography",
+    "question": "What is Botnet?",
+    "answer": "A number of Internet-connected devices, each of which is running one or more bots, typically used for DDoS attacks."
+  },
+  {
+    "id": 1611,
+    "topic": "AI & Big Data",
+    "question": "What is Machine Learning?",
+    "answer": "A subset of AI that involves the study of computer algorithms that improve automatically through experience."
+  },
+  {
+    "id": 1612,
+    "topic": "AI & Big Data",
+    "question": "What is Deep Learning?",
+    "answer": "A class of machine learning algorithms that uses multiple layers to progressively extract higher-level features from the raw input."
+  },
+  {
+    "id": 1613,
+    "topic": "AI & Big Data",
+    "question": "What is Neural Network?",
+    "answer": "A series of algorithms that endeavors to recognize underlying relationships in a set of data through a process that mimics the way the human brain operates."
+  },
+  {
+    "id": 1614,
+    "topic": "AI & Big Data",
+    "question": "What is Supervised Learning?",
+    "answer": "The machine learning task of learning a function that maps an input to an output based on example input-output pairs."
+  },
+  {
+    "id": 1615,
+    "topic": "AI & Big Data",
+    "question": "What is Unsupervised Learning?",
+    "answer": "A type of machine learning that looks for previously undetected patterns in a data set with no pre-existing labels and with a minimum of human supervision."
+  },
+  {
+    "id": 1616,
+    "topic": "AI & Big Data",
+    "question": "What is Reinforcement Learning?",
+    "answer": "An area of machine learning concerned with how intelligent agents ought to take actions in an environment in order to maximize the notion of cumulative reward."
+  },
+  {
+    "id": 1617,
+    "topic": "AI & Big Data",
+    "question": "What is Overfitting?",
+    "answer": "The production of an analysis that corresponds too closely or exactly to a particular set of data, and may therefore fail to fit additional data or predict future observations reliably."
+  },
+  {
+    "id": 1618,
+    "topic": "AI & Big Data",
+    "question": "What is Underfitting?",
+    "answer": "Occurs when a machine learning model cannot capture the underlying trend of the data and destroys the accuracy of the model."
+  },
+  {
+    "id": 1619,
+    "topic": "AI & Big Data",
+    "question": "What is Natural Language Processing (NLP)?",
+    "answer": "A subfield of linguistics, computer science, and AI concerned with the interactions between computers and human language."
+  },
+  {
+    "id": 1620,
+    "topic": "AI & Big Data",
+    "question": "What is Computer Vision?",
+    "answer": "An interdisciplinary scientific field that deals with how computers can gain high-level understanding from digital images or videos."
+  },
+  {
+    "id": 1621,
+    "topic": "AI & Big Data",
+    "question": "What is Big Data?",
+    "answer": "Extremely large data sets that may be analyzed computationally to reveal patterns, trends, and associations."
+  },
+  {
+    "id": 1622,
+    "topic": "AI & Big Data",
+    "question": "What is Hadoop?",
+    "answer": "A collection of open-source software utilities that facilitate using a network of many computers to solve problems involving massive amounts of data and computation."
+  },
+  {
+    "id": 1623,
+    "topic": "AI & Big Data",
+    "question": "What is MapReduce?",
+    "answer": "A programming model and an associated implementation for processing and generating big data sets with a parallel, distributed algorithm on a cluster."
+  },
+  {
+    "id": 1624,
+    "topic": "AI & Big Data",
+    "question": "What is Apache Spark?",
+    "answer": "An open-source unified analytics engine for large-scale data processing."
+  },
+  {
+    "id": 1625,
+    "topic": "AI & Big Data",
+    "question": "What is Data Lake?",
+    "answer": "A system or repository of data stored in its natural/raw format, usually object blobs or files."
+  },
+  {
+    "id": 1626,
+    "topic": "AI & Big Data",
+    "question": "What is Data Warehouse?",
+    "answer": "A central repository of integrated data from one or more disparate sources, storing current and historical data."
+  },
+  {
+    "id": 1627,
+    "topic": "AI & Big Data",
+    "question": "What is ETL (Extract, Transform, Load)?",
+    "answer": "The general procedure of copying data from one or more sources into a destination system which represents the data differently."
+  },
+  {
+    "id": 1628,
+    "topic": "AI & Big Data",
+    "question": "What is Data Pipeline?",
+    "answer": "A set of data processing elements connected in series, where the output of one element is the input of the next one."
+  },
+  {
+    "id": 1629,
+    "topic": "AI & Big Data",
+    "question": "What is Business Intelligence (BI)?",
+    "answer": "Strategies and technologies used by enterprises for the data analysis of business information."
+  },
+  {
+    "id": 1630,
+    "topic": "AI & Big Data",
+    "question": "What is Gradient Descent?",
+    "answer": "A first-order iterative optimization algorithm for finding a local minimum of a differentiable function."
+  },
+  {
+    "id": 1631,
+    "topic": "AI & Big Data",
+    "question": "What is Classification?",
+    "answer": "The problem of identifying to which of a set of categories a new observation belongs."
+  },
+  {
+    "id": 1632,
+    "topic": "AI & Big Data",
+    "question": "What is Regression?",
+    "answer": "A set of statistical processes for estimating the relationships between a dependent variable and one or more independent variables."
+  },
+  {
+    "id": 1633,
+    "topic": "AI & Big Data",
+    "question": "What is Clustering?",
+    "answer": "The task of grouping a set of objects in such a way that objects in the same group are more similar to each other than to those in other groups."
+  },
+  {
+    "id": 1634,
+    "topic": "AI & Big Data",
+    "question": "What is Decision Tree?",
+    "answer": "A decision support tool that uses a tree-like model of decisions and their possible consequences."
+  },
+  {
+    "id": 1635,
+    "topic": "AI & Big Data",
+    "question": "What is Random Forest?",
+    "answer": "An ensemble learning method for classification, regression and other tasks that operates by constructing a multitude of decision trees at training time."
+  },
+  {
+    "id": 1636,
+    "topic": "Algorithms",
+    "question": "What is Dynamic Programming?",
+    "answer": "A method for solving a complex problem by breaking it down into a collection of simpler subproblems, solving each of those subproblems just once, and storing their solutions."
+  },
+  {
+    "id": 1637,
+    "topic": "Algorithms",
+    "question": "What is Backtracking?",
+    "answer": "A general algorithm for finding all (or some) solutions to some computational problems, notably constraint satisfaction problems, that incrementally builds candidates to the solutions."
+  },
+  {
+    "id": 1638,
+    "topic": "Algorithms",
+    "question": "What is Greedy Algorithm?",
+    "answer": "Any algorithm that follows the problem-solving heuristic of making the locally optimal choice at each stage with the intent of finding a global optimum."
+  },
+  {
+    "id": 1639,
+    "topic": "Algorithms",
+    "question": "What is Divide and Conquer?",
+    "answer": "An algorithm design paradigm based on multi-branched recursion. A divide-and-conquer algorithm works by recursively breaking down a problem into two or more sub-problems of the same or related type."
+  },
+  {
+    "id": 1640,
+    "topic": "Algorithms",
+    "question": "What is Breadth-First Search (BFS)?",
+    "answer": "An algorithm for traversing or searching tree or graph data structures. It starts at the tree root and explores all nodes at the present depth prior to moving on to the nodes at the next depth level."
+  },
+  {
+    "id": 1641,
+    "topic": "Algorithms",
+    "question": "What is Depth-First Search (DFS)?",
+    "answer": "An algorithm for traversing or searching tree or graph data structures. The algorithm starts at the root node and explores as far as possible along each branch before backtracking."
+  },
+  {
+    "id": 1642,
+    "topic": "Algorithms",
+    "question": "What is Dijkstra's Algorithm?",
+    "answer": "An algorithm for finding the shortest paths between nodes in a graph."
+  },
+  {
+    "id": 1643,
+    "topic": "Algorithms",
+    "question": "What is A* Search Algorithm?",
+    "answer": "A graph traversal and path search algorithm, which is often used in many fields of computer science due to its completeness, optimality, and optimal efficiency."
+  },
+  {
+    "id": 1644,
+    "topic": "Algorithms",
+    "question": "What is Knapsack Problem?",
+    "answer": "A problem in combinatorial optimization: Given a set of items, each with a weight and a value, determine the number of each item to include in a collection so that the total weight is less than or equal to a given limit and the total value is as large as possible."
+  },
+  {
+    "id": 1645,
+    "topic": "Algorithms",
+    "question": "What is Traveling Salesperson Problem (TSP)?",
+    "answer": "Asks the following question: 'Given a list of cities and the distances between each pair of cities, what is the shortest possible route that visits each city exactly once and returns to the origin city?'"
+  },
+  {
+    "id": 1646,
+    "topic": "Algorithms",
+    "question": "What is Big O Notation?",
+    "answer": "A mathematical notation that describes the limiting behavior of a function when the argument tends towards a particular value or infinity. Used to classify algorithms according to how their run time or space requirements grow as the input size grows."
+  },
+  {
+    "id": 1647,
+    "topic": "Algorithms",
+    "question": "What is Time Complexity?",
+    "answer": "The computational complexity that describes the amount of computer time it takes to run an algorithm."
+  },
+  {
+    "id": 1648,
+    "topic": "Algorithms",
+    "question": "What is Space Complexity?",
+    "answer": "The amount of memory space required by the algorithm, during the course of its execution."
+  },
+  {
+    "id": 1649,
+    "topic": "Algorithms",
+    "question": "What is Array?",
+    "answer": "A data structure consisting of a collection of elements, each identified by at least one array index or key."
+  },
+  {
+    "id": 1650,
+    "topic": "Algorithms",
+    "question": "What is Linked List?",
+    "answer": "A linear collection of data elements whose order is not given by their physical placement in memory. Instead, each element points to the next."
+  },
+  {
+    "id": 1651,
+    "topic": "Algorithms",
+    "question": "What is Stack?",
+    "answer": "An abstract data type that serves as a collection of elements, with two principal operations: push and pop (LIFO)."
+  },
+  {
+    "id": 1652,
+    "topic": "Algorithms",
+    "question": "What is Queue?",
+    "answer": "A collection of entities that are maintained in a sequence and can be modified by the addition of entities at one end of the sequence and the removal of entities from the other end of the sequence (FIFO)."
+  },
+  {
+    "id": 1653,
+    "topic": "Algorithms",
+    "question": "What is Hash Table?",
+    "answer": "A data structure that implements an associative array abstract data type, a structure that can map keys to values."
+  },
+  {
+    "id": 1654,
+    "topic": "Algorithms",
+    "question": "What is Binary Search Tree?",
+    "answer": "A rooted binary tree whose internal nodes each store a key greater than all the keys in the node's left subtree and less than those in its right subtree."
+  },
+  {
+    "id": 1655,
+    "topic": "Algorithms",
+    "question": "What is Heap?",
+    "answer": "A specialized tree-based data structure which is essentially an almost complete tree that satisfies the heap property."
+  },
+  {
+    "id": 1656,
+    "topic": "Algorithms",
+    "question": "What is Trie?",
+    "answer": "A type of k-ary search tree used for locating specific keys from within a set. These keys are most often strings."
+  },
+  {
+    "id": 1657,
+    "topic": "Algorithms",
+    "question": "What is Graph?",
+    "answer": "An abstract data type that is meant to implement the undirected graph and directed graph concepts from the field of graph theory."
+  },
+  {
+    "id": 1658,
+    "topic": "Algorithms",
+    "question": "What is Sorting Algorithm?",
+    "answer": "An algorithm that puts elements of a list into an order."
+  },
+  {
+    "id": 1659,
+    "topic": "Algorithms",
+    "question": "What is Searching Algorithm?",
+    "answer": "An algorithm designed to solve the search problem, checking whether an item exists or returning its position."
+  },
+  {
+    "id": 1660,
+    "topic": "Algorithms",
+    "question": "What is Bit Manipulation?",
+    "answer": "The act of algorithmically manipulating bits or other pieces of data shorter than a word."
+  },
+  {
+    "id": 1661,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #1?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1662,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #2?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1663,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #3?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1664,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #4?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1665,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #5?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1666,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #6?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1667,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #7?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1668,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #8?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1669,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #9?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1670,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #10?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1671,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #11?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1672,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #12?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1673,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #13?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1674,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #14?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1675,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #15?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1676,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #16?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1677,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #17?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1678,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #18?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1679,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #19?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1680,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #20?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1681,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #21?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1682,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #22?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1683,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #23?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1684,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #24?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1685,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #25?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1686,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #26?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1687,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #27?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1688,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #28?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1689,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #29?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1690,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #30?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1691,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #31?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1692,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #32?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1693,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #33?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1694,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #34?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1695,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #35?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1696,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #36?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1697,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #37?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1698,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #38?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1699,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #39?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1700,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #40?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1701,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #41?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1702,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #42?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1703,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #43?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1704,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #44?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1705,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #45?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1706,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #46?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1707,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #47?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1708,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #48?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1709,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #49?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1710,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #50?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1711,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #51?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1712,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #52?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1713,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #53?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1714,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #54?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1715,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #55?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1716,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #56?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1717,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #57?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1718,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #58?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1719,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #59?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1720,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #60?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1721,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #61?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1722,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #62?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1723,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #63?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1724,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #64?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1725,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #65?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1726,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #66?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1727,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #67?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1728,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #68?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1729,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #69?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1730,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #70?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1731,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #71?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1732,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #72?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1733,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #73?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1734,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #74?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1735,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #75?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1736,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #76?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1737,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #77?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1738,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #78?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1739,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #79?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1740,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #80?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1741,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #81?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1742,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #82?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1743,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #83?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1744,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #84?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1745,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #85?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1746,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #86?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1747,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #87?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1748,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #88?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1749,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #89?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1750,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #90?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1751,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #91?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1752,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #92?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1753,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #93?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1754,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #94?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1755,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #95?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1756,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #96?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1757,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #97?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1758,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #98?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1759,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #99?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1760,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #100?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1761,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #101?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1762,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #102?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1763,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #103?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1764,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #104?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1765,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #105?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1766,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #106?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1767,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #107?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1768,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #108?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1769,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #109?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1770,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #110?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1771,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #111?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1772,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #112?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1773,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #113?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1774,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #114?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1775,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #115?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1776,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #116?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1777,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #117?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1778,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #118?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1779,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #119?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1780,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #120?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1781,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #121?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1782,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #122?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1783,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #123?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1784,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #124?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1785,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #125?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1786,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #126?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1787,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #127?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1788,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #128?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1789,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #129?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1790,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #130?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1791,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #131?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1792,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #132?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1793,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #133?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1794,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #134?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1795,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #135?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1796,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #136?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1797,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #137?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1798,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #138?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1799,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #139?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1800,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #140?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1801,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #141?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1802,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #142?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1803,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #143?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1804,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #144?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1805,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #145?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1806,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #146?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1807,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #147?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1808,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #148?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1809,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #149?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1810,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #150?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1811,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #151?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1812,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #152?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1813,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #153?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1814,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #154?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1815,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #155?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1816,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #156?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1817,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #157?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1818,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #158?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1819,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #159?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1820,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #160?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1821,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #161?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1822,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #162?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1823,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #163?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1824,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #164?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1825,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #165?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1826,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #166?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1827,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #167?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1828,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #168?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1829,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #169?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1830,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #170?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1831,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #171?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1832,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #172?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1833,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #173?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1834,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #174?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1835,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #175?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1836,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #176?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1837,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #177?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1838,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #178?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1839,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #179?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1840,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #180?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1841,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #181?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1842,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #182?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1843,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #183?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1844,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #184?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1845,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #185?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1846,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #186?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1847,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #187?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1848,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #188?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1849,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #189?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1850,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #190?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1851,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #191?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1852,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #192?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1853,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #193?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1854,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #194?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1855,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #195?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1856,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #196?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1857,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #197?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1858,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #198?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1859,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #199?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1860,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #200?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1861,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #201?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1862,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #202?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1863,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #203?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1864,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #204?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1865,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #205?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1866,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #206?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1867,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #207?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1868,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #208?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1869,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #209?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1870,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #210?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1871,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #211?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1872,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #212?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1873,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #213?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1874,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #214?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1875,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #215?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1876,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #216?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1877,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #217?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1878,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #218?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1879,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #219?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1880,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #220?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1881,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #221?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1882,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #222?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1883,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #223?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1884,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #224?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1885,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #225?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1886,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #226?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1887,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #227?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1888,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #228?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1889,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #229?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1890,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #230?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1891,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #231?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1892,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #232?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1893,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #233?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1894,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #234?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1895,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #235?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1896,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #236?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1897,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #237?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1898,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #238?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1899,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #239?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1900,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #240?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1901,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #241?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1902,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #242?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1903,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #243?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1904,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #244?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1905,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #245?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1906,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #246?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1907,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #247?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1908,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #248?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1909,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #249?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1910,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #250?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1911,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #251?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1912,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #252?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1913,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #253?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1914,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #254?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1915,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #255?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1916,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #256?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1917,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #257?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1918,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #258?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1919,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #259?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1920,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #260?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1921,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #261?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1922,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #262?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1923,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #263?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1924,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #264?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1925,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #265?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1926,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #266?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1927,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #267?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1928,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #268?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1929,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #269?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1930,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #270?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1931,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #271?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1932,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #272?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1933,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #273?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1934,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #274?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1935,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #275?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1936,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #276?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1937,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #277?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1938,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #278?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1939,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #279?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1940,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #280?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1941,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #281?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1942,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #282?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1943,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #283?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1944,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #284?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1945,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #285?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1946,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #286?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1947,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #287?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1948,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #288?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1949,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #289?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1950,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #290?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1951,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #291?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1952,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #292?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1953,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #293?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1954,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #294?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1955,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #295?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1956,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #296?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1957,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #297?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1958,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #298?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1959,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #299?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1960,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #300?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1961,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #301?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1962,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #302?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1963,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #303?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1964,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #304?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1965,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #305?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1966,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #306?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1967,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #307?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1968,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #308?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1969,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #309?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1970,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #310?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1971,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #311?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1972,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #312?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1973,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #313?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1974,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #314?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1975,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #315?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1976,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #316?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1977,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #317?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1978,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #318?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1979,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #319?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1980,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #320?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1981,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #321?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1982,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #322?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1983,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #323?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1984,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #324?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1985,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #325?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1986,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #326?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1987,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #327?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1988,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #328?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1989,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #329?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1990,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #330?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1991,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #331?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1992,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #332?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1993,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #333?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1994,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #334?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1995,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #335?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1996,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #336?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1997,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #337?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1998,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #338?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 1999,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #339?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
+  },
+  {
+    "id": 2000,
+    "topic": "Advanced CS",
+    "question": "What is Advanced Computer Science Concept #340?",
+    "answer": "This is a placeholder for advanced computer science principles. When preparing for interviews, ensure you study this depth of topics thoroughly."
   }
 ];
